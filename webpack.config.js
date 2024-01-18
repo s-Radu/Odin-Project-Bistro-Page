@@ -1,4 +1,5 @@
 const path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -31,6 +32,18 @@ module.exports = {
           "postcss-loader",
         ],
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: "asset/resource",
+        generator: {
+          filename: "images/[hash][ext][query]",
+        },
+      },
     ],
   },
+  plugins: [
+    new CopyWebpackPlugin({
+      patterns: [{ from: "src/images", to: "images" }],
+    }),
+  ],
 };
