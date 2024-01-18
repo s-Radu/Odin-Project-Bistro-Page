@@ -1,5 +1,6 @@
 const path = require("path");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -18,6 +19,7 @@ module.exports = {
     hot: true,
     compress: true,
     historyApiFallback: true,
+    watchFiles: ["src/index.html"],
   },
   module: {
     rules: [
@@ -44,7 +46,19 @@ module.exports = {
   },
   plugins: [
     new CopyWebpackPlugin({
-      patterns: [{ from: "src/images", to: "images" }],
+      patterns: [
+        { from: "src/assets/images", to: "images" },
+        { from: "src/assets/fonts", to: "fonts" },
+      ],
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+      filename: "./index.html",
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: false,
+      },
     }),
   ],
 };

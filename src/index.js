@@ -1,5 +1,5 @@
 import "./style.css";
-import bistro1 from "./images/bistro1.jpg";
+import bistro1 from "./assets/images/bistro1.jpg";
 
 const root = document.getElementById("content");
 
@@ -13,8 +13,8 @@ function test() {
 test();
 
 //? Keep for later, to toggle and untoggle dark mode
-document
-  .getElementById("toggleDarkMode")
-  .addEventListener("click", function () {
-    document.documentElement.classList.toggle("dark");
-  });
+// document
+//   .getElementById("toggleDarkMode")
+//   .addEventListener("click", function () {
+//     document.documentElement.classList.toggle("dark");
+//   });
