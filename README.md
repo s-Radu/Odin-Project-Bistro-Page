@@ -46,4 +46,4 @@ Now you can open your browser and visit localhost:3000 to view the project.
 
 # Author
 
-[lilVoid](https://github.com/s-Radu/Restaurant-Page)
+[lilVoid](https://github.com/s-Radu)
