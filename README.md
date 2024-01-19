@@ -20,23 +20,35 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation
 
 1. Clone the repository:
+
+```
    bash
-   `git clone https://github.com/s-Radu/Restaurant-Page`
+   git clone https://github.com/s-Radu/Restaurant-Page
+```
 
 2. Navigate into the project directory:
-   `cd restaurant-page`
+
+```
+   cd restaurant-page
+```
 
 3. Install the dependencies:
-   `npm install`
+
+```
+   npm install
+```
 
 4. Start the development server:
-   `npm run dev`
+
+```
+   npm run dev
+```
 
 Now you can open your browser and visit localhost:3000 to view the project.
 
 ---
 
-# Built With
+### Built With
 
 - Vanilla JavaScript - The web framework used
 - Tailwind CSS - For styles
