@@ -1,6 +1,5 @@
 const path = require("path");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -50,15 +49,6 @@ module.exports = {
         { from: "src/assets/images", to: "images" },
         { from: "src/assets/fonts", to: "fonts" },
       ],
-    }),
-    new HtmlWebpackPlugin({
-      template: "./src/index.html",
-      filename: "./index.html",
-      inject: true,
-      minify: {
-        removeComments: true,
-        collapseWhitespace: false,
-      },
     }),
   ],
 };
