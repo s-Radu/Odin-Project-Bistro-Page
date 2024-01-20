@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
