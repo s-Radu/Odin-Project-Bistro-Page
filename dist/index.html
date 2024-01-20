@@ -25,10 +25,11 @@
     <div id="content" class="dark:bg-slate-800 ">
 
         <header class="flex text-white items-center relative">
-            <div class="container mx-auto flex flex-wrap p-5  justify-between items-center">
-                <img src="${logo}" alt="page logo" class="w-20 cursor-pointer home">
+            <div class="container mx-auto flex flex-wrap p-5 justify-between items-center">
+                <img src="./images/2abf6943a02ead9bb54a.png" alt="Bistro: Lebăda neagră"
+                    class="w-20 cursor-pointer home">
                 <nav
-                    class="absolute right-0 top-3/4 md:relative md:flex md:mr-auto md:ml-4 md:py-1 md:h-20 md:pl-4 md:border-l md:border-gray-400  flex-wrap items-center text-base justify-center">
+                    class="hidden md:relative md:flex md:mr-auto md:ml-4 md:py-1 md:h-20 md:pl-4 md:border-l md:border-gray-400  flex-wrap items-center text-base justify-center">
                     <p
                         class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
                         Home</p>
@@ -43,8 +44,8 @@
                         Contact
                         Us</p>
                 </nav>
-                <div>
-                    <button class="relative group">
+                <div class="relative mr-4 md:hidden hamburgher-button">
+                    <button class="relative group ">
                         <div
                             class="relative flex flex-col overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all bg-slate-700 ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
                             <div
@@ -69,6 +70,24 @@
                             </div>
                         </div>
                     </button>
+
+                    <div
+                        class="flex flex-col gap2 items-center  justify-between absolute -bottom-40 w-[6.5rem] h-36 -left-4 md:hidden hamburger-items">
+                        <p
+                            class="mr-5 transform transition-all duration-150 text-center hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
+                            Home</p>
+                        <p
+                            class="mr-5 transform transition-all duration-150 text-center hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
+                            Foods
+                            Us</p>
+                        <p
+                            class="mr-5 transform transition-all duration-150 text-center hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
+                            Drinks</p>
+                        <p
+                            class="mr-5 transform transition-all duration-150 text-center hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 contact">
+                            Contact
+                            Us</p>
+                    </div>
                 </div>
             </div>
         </header>

@@ -12,3 +12,11 @@ let headerElement = header();
 //   .addEventListener("click", function () {
 //     document.documentElement.classList.toggle("dark");
 //   });
+
+const hamburgherButton = document.querySelector("hamburgher-button");
+
+document.addEventListener("click", (e) => {
+  if (e.target.closest("hamburgher-button")) {
+    console.log(e.target);
+  }
+});
