@@ -2,19 +2,21 @@ import "./style.css";
 import { header } from "./header";
 
 const bistroPage = (function () {
-  //> Cache DOM
-
+  //> Render the DOM elements here so we can later create and assign variables directly
+  //> Cach the content element that's already on the DOM
   const content = document.getElementById("content");
-  let hamburgherItems;
-  let themeToggler;
-
-  //> Render
 
   function _render() {
     let headerElement = header();
 
     content.appendChild(headerElement);
   }
+
+  //> Call render
+  _render();
+
+  let hamburgherItems = content.querySelector("#hamburgherItems");
+  let themeToggler = content.querySelector("#theme-toggle");
 
   //> Event Listeners
 
@@ -29,7 +31,7 @@ const bistroPage = (function () {
 
   function _handleFocusIn(e) {
     if (e.target.closest("#hamburgherButton")) {
-      hamburgherItems.classList.remove("anima-tefadeOut");
+      hamburgherItems.classList.remove("animate-fadeOut");
       hamburgherItems.classList.remove("hidden");
     }
   }
@@ -76,13 +78,6 @@ const bistroPage = (function () {
       //? here we will do the transition between pages
     }
   });
-
-  //> Call render
-  _render();
-
-  //> Update hamburgher items just after the content is rendered otherwise will return null
-  hamburgherItems = content.querySelector("#hamburgherItems");
-  themeToggler = content.querySelector("#theme-toggle");
 
   //> Call Event Listeners
   _bindEvents();
