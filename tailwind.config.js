@@ -9,6 +9,15 @@ module.exports = {
         josefin: ["Josefin Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      animation: {
+        fadeOut: "fadeOut 0.5s ease-in-out",
+      },
+      keyframes: {
+        fadeOut: {
+          "0%": { opacity: "1" },
+          "100%": { opacity: "0" },
+        },
+      },
     },
   },
   purge: ["./dist/**/*.html", "./src/**/*.js"], //? Add purge configuration

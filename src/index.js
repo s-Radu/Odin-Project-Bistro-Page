@@ -12,13 +12,17 @@ let hamburgherItems = document.getElementById("hamburgherItems");
 
 document.addEventListener("focusin", (e) => {
   if (e.target.closest("#hamburgherButton")) {
+    hamburgherItems.classList.remove("animate-fadeOut");
     hamburgherItems.classList.remove("hidden");
   }
 });
 
 document.addEventListener("focusout", (e) => {
   if (e.target.closest("#hamburgherButton")) {
-    hamburgherItems.classList.add("hidden");
+    hamburgherItems.classList.add("animate-fadeOut");
+    hamburgherItems.addEventListener("animationend", () => {
+      hamburgherItems.classList.add("hidden");
+    });
   }
 });
 
@@ -31,7 +35,6 @@ document.addEventListener("click", (e) => {
     classList.contains("contact")
   ) {
     console.log(`clicked ${classList}`);
-    console.log(e.target);
   }
 });
 

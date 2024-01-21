@@ -74,18 +74,18 @@ export function header() {
                     <div class="hidden flex flex-col gap2 items-center  justify-between absolute -bottom-40 w-[6.5rem] h-36 -left-4 md:hidden"
                         id="hamburgherItems">
                         <p
-                            class="mr-5 transform transition-all duration-150 text-center hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
-                            Home</p>
-                        <p
-                            class="mr-5 transform transition-all duration-150 text-center hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
-                            Foods</p>
-                        <p
-                            class="mr-5 transform transition-all duration-150 text-center hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
-                            Drinks</p>
-                        <p
-                            class="mr-5 transform transition-all duration-150 text-center hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 contact">
-                            Contact
-                            Us</p>
+                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
+                        Home</p>
+                    <p
+                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
+                        Foods</p>
+                    <p
+                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
+                        Drinks</p>
+                    <p
+                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 contact">
+                        Contact
+                        Us</p>
                     </div>
                 </div>
             </div>
