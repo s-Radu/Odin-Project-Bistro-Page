@@ -1,55 +1,89 @@
 import "./style.css";
 import { header } from "./header";
 
-const content = document.getElementById("content");
+const bistroPage = (function () {
+  //> Cache DOM
 
-let headerElement = header();
-content.appendChild(headerElement);
+  const content = document.getElementById("content");
+  let hamburgherItems;
+  let themeToggler;
 
-let hamburgherItems = document.getElementById("hamburgherItems");
+  //> Render
 
-//? The below focuses on the hamburgher button and toggles the menu, reweite it to be more efficient, for the moment it works
+  function _render() {
+    let headerElement = header();
 
-document.addEventListener("focusin", (e) => {
-  if (e.target.closest("#hamburgherButton")) {
-    hamburgherItems.classList.remove("animate-fadeOut");
-    hamburgherItems.classList.remove("hidden");
+    content.appendChild(headerElement);
   }
-});
 
-document.addEventListener("focusout", (e) => {
-  if (e.target.closest("#hamburgherButton")) {
-    hamburgherItems.classList.add("animate-fadeOut");
-    hamburgherItems.addEventListener("animationend", () => {
-      hamburgherItems.classList.add("hidden");
-    });
+  //> Event Listeners
+
+  function _bindEvents() {
+    document.addEventListener("focusin", _handleFocusIn);
+    document.addEventListener("focusout", _handleFocusOut);
+    themeToggler.addEventListener(
+      "click",
+      _handleDarkModeToggler.bind(themeToggler)
+    );
   }
-});
 
-document.addEventListener("click", (e) => {
-  let classList = e.target.classList;
-  if (
-    classList.contains("home") ||
-    classList.contains("foods") ||
-    classList.contains("drinks") ||
-    classList.contains("contact")
-  ) {
-    console.log(`clicked ${classList}`);
+  function _handleFocusIn(e) {
+    if (e.target.closest("#hamburgherButton")) {
+      hamburgherItems.classList.remove("anima-tefadeOut");
+      hamburgherItems.classList.remove("hidden");
+    }
   }
-});
 
-//? Dark mode toggle
+  function _handleFocusOut(e) {
+    if (e.target.closest("#hamburgherButton")) {
+      hamburgherItems.classList.add("animate-fadeOut");
+      hamburgherItems.addEventListener(
+        "animationend",
+        _removeHamburgherAnimation
+      );
+    }
+  }
 
-document.getElementById("theme-toggle").addEventListener("click", function () {
-  let isDark = document.documentElement.classList.toggle("dark");
+  function _removeHamburgherAnimation() {
+    hamburgherItems.classList.add("hidden");
+  }
 
-  // Switch the icon
-  document.getElementById("sun-icon").style.display = isDark ? "none" : "block";
-  document.getElementById("moon-icon").style.display = isDark
-    ? "block"
-    : "none";
+  function _handleDarkModeToggler() {
+    //> select the HTML element which holds the class of dark, since we use tailwindcss for dark mode
+    let isDark = document.documentElement.classList.toggle("dark");
 
-  // Update local storage and aria-label
-  localStorage.setItem("theme-preference", isDark ? "dark" : "light");
-  this.setAttribute("aria-label", isDark ? "dark" : "light");
-});
+    //> Switch the icon
+    content.querySelector("#sun-icon").style.display = isDark
+      ? "none"
+      : "block";
+    content.querySelector("#moon-icon").style.display = isDark
+      ? "block"
+      : "none";
+
+    //> Update local storage and aria-label
+    localStorage.setItem("theme-preference", isDark ? "dark" : "light");
+    this.setAttribute("aria-label", isDark ? "dark" : "light");
+  }
+
+  document.addEventListener("click", (e) => {
+    let classList = e.target.classList;
+    if (
+      classList.contains("home") ||
+      classList.contains("foods") ||
+      classList.contains("drinks") ||
+      classList.contains("contact")
+    ) {
+      //? here we will do the transition between pages
+    }
+  });
+
+  //> Call render
+  _render();
+
+  //> Update hamburgher items just after the content is rendered otherwise will return null
+  hamburgherItems = content.querySelector("#hamburgherItems");
+  themeToggler = content.querySelector("#theme-toggle");
+
+  //> Call Event Listeners
+  _bindEvents();
+})();
