@@ -7,7 +7,7 @@ module.exports = {
       fontFamily: {
         nunito: ["Nunito", "sans-serif"],
         josefin: ["Josefin Sans", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
+        montserat: ["Montserrat", "sans-serif"],
       },
       animation: {
         fadeOut: "fadeOut 0.5s ease-in-out",

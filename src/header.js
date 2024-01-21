@@ -9,16 +9,16 @@ export function header() {
   <nav
       class="hidden md:relative md:flex md:mr-auto md:ml-4 md:py-1 md:h-20 md:pl-4 md:border-l md:border-gray-400  flex-wrap items-center text-base justify-center">
       <p
-          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 home">
           Home</p>
       <p
-          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 foods">
           Foods</p>
       <p
-          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 drinks">
           Drinks</p>
       <p
-          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 contact">
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 contact">
           Contact
           Us</p>
   </nav>

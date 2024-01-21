@@ -576,11 +576,17 @@ video {
 .-left-10 {
   left: -2.5rem;
 }
+.bottom-0 {
+  bottom: 0px;
+}
 .z-10 {
   z-index: 10;
 }
 .m-2 {
   margin: 0.5rem;
+}
+.m-4 {
+  margin: 1rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -596,11 +602,17 @@ video {
 .mb-1\\.5 {
   margin-bottom: 0.375rem;
 }
+.me-4 {
+  margin-right: 1rem;
+}
 .mr-4 {
   margin-right: 1rem;
 }
 .mr-5 {
   margin-right: 1.25rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
 }
 .block {
   display: block;
@@ -610,6 +622,9 @@ video {
 }
 .hidden {
   display: none;
+}
+.h-32 {
+  height: 8rem;
 }
 .h-40 {
   height: 10rem;
@@ -649,6 +664,9 @@ video {
 }
 .w-\\[50px\\] {
   width: 50px;
+}
+.w-full {
+  width: 100%;
 }
 .origin-center {
   transform-origin: center;
@@ -736,6 +754,11 @@ video {
 .border-b-2 {
   border-bottom-width: 2px;
 }
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 0, 0, 1);
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+}
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgba(156, 163, 175, 1);
@@ -754,6 +777,11 @@ video {
 .bg-transparent {
   background-color: transparent;
 }
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
 .bg-cover {
   background-size: cover;
 }
@@ -765,6 +793,9 @@ video {
 }
 .p-2 {
   padding: 0.5rem;
+}
+.p-4 {
+  padding: 1rem;
 }
 .p-5 {
   padding: 1.25rem;
@@ -794,9 +825,16 @@ video {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.font-medium {
+  font-weight: 500;
 }
 .text-black {
   --tw-text-opacity: 1;
@@ -825,6 +863,12 @@ video {
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+}
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
 }
 .ring-0 {
@@ -919,6 +963,12 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.hover\\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+
 .hover\\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, 1);
@@ -951,16 +1001,16 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 rgba(0,0,0,0));
 }
 
+.dark .dark\\:border-white {
+  --tw-border-opacity: 1;
+  border-color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+}
+
 .dark .dark\\:bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgba(31, 41, 55, 1);
   background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
-}
-
-.dark .dark\\:bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(30, 41, 59, 1);
-  background-color: rgba(30, 41, 59, var(--tw-bg-opacity));
 }
 
 .dark .dark\\:bg-slate-900 {
@@ -981,6 +1031,12 @@ video {
   color: rgba(229, 231, 235, var(--tw-text-opacity));
 }
 
+.dark .dark\\:text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, 1);
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+}
+
 .dark .dark\\:text-white {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, 1);
@@ -989,6 +1045,19 @@ video {
 
 .dark .dark\\:opacity-50 {
   opacity: 0.5;
+}
+
+.dark .dark\\:hover\\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+
+  .sm\\:mt-0 {
+    margin-top: 0px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1000,6 +1069,10 @@ video {
   .md\\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
+  }
+
+  .md\\:me-6 {
+    margin-right: 1.5rem;
   }
 
   .md\\:ml-4 {
@@ -1018,6 +1091,10 @@ video {
     display: none;
   }
 
+  .md\\:h-16 {
+    height: 4rem;
+  }
+
   .md\\:h-20 {
     height: 5rem;
   }
@@ -1028,6 +1105,10 @@ video {
 
   .md\\:w-24 {
     width: 6rem;
+  }
+
+  .md\\:flex-row {
+    flex-direction: row;
   }
 
   .md\\:border-l {
@@ -1065,7 +1146,7 @@ video {
     margin-right: 9rem;
   }
 }
-`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["@import \"tailwindcss/base\";\n@import \"tailwindcss/components\";\n@import \"tailwindcss/utilities\";\n\n@font-face {\n  font-family: \"Nunito\";\n  src: url(\"./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Josefin Sans\";\n  src: url(\"./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  src: url(\"./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["@import \"tailwindcss/base\";\n@import \"tailwindcss/components\";\n@import \"tailwindcss/utilities\";\n\n@font-face {\n  font-family: \"Nunito\";\n  src: url(\"./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Josefin Sans\";\n  src: url(\"./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  src: url(\"./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1547,6 +1628,48 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/footer.js":
+/*!***********************!*\
+  !*** ./src/footer.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   footer: () => (/* binding */ footer)
+/* harmony export */ });
+function footer() {
+  let footer = document.createElement("footer");
+  footer.className =
+    "container relative bottom-0 mx-auto bg-white rounded-2xl shadow-xl m-4 dark:bg-gray-800 h-32 md:h-16 flex items-center";
+  footer.innerHTML = `
+    <div class="w-full h-full p-4 flex flex-col justify-between items-center md:flex-row">
+                <span class="text-sm font-josefin text-gray-400 dark:text-gray-400">© 2023 <a
+                        href="https://bistro-page-five.vercel.app/"
+                        class="hover:pb-2 hover:border-b-2 border-black dark:border-white dark:hover:text-white hover:text-black">Lebăda
+                        neagră™</a>. All
+                    Rights Reserved.
+                </span>
+                <div
+                    class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-400 dark:text-gray-400 sm:mt-0">
+                    <a href="#"
+                        class="hover:border-b-2 border-black dark:border-white transform transition-all duration-150  hover:pb-2 dark:hover:text-white hover:text-black me-4 md:me-6">About</a>
+                    <a href="#"
+                        class="hover:border-b-2 border-black dark:border-white transform transition-all duration-150  hover:pb-2 dark:hover:text-white hover:text-black me-4 md:me-6">Privacy
+                        Policy</a>
+                    <a href="#"
+                        class="hover:border-b-2 border-black dark:border-white transform transition-all duration-150  hover:pb-2 dark:hover:text-white hover:text-black me-4 md:me-6">Licensing</a>
+                    <a href="#"
+                        class="hover:border-b-2 border-black dark:border-white transform transition-all duration-150  hover:pb-2 dark:hover:text-white hover:text-black">Contact</a>
+                </div>
+            </div>
+    `;
+  return footer;
+}
+
+
+/***/ }),
+
 /***/ "./src/header.js":
 /*!***********************!*\
   !*** ./src/header.js ***!
@@ -1569,16 +1692,16 @@ function header() {
   <nav
       class="hidden md:relative md:flex md:mr-auto md:ml-4 md:py-1 md:h-20 md:pl-4 md:border-l md:border-gray-400  flex-wrap items-center text-base justify-center">
       <p
-          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 home">
           Home</p>
       <p
-          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 foods">
           Foods</p>
       <p
-          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 drinks">
           Drinks</p>
       <p
-          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 contact">
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 contact">
           Contact
           Us</p>
   </nav>
@@ -1900,12 +2023,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ "./src/header.js");
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ "./src/home.js");
+/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ "./src/footer.js");
+
 
 
 
 
 const bistroPage = (function () {
-  
   //> Render the DOM elements here so we can later create and assign variables directly
   //> Cach the content element that's already on the DOM
   const content = document.getElementById("content");
@@ -1913,9 +2037,11 @@ const bistroPage = (function () {
   function _render() {
     let headerElement = (0,_header__WEBPACK_IMPORTED_MODULE_1__.header)();
     let homePageElement = (0,_home__WEBPACK_IMPORTED_MODULE_2__.homePage)();
+    let footerElement = (0,_footer__WEBPACK_IMPORTED_MODULE_3__.footer)();
 
     content.appendChild(headerElement);
     content.appendChild(homePageElement);
+    content.appendChild(footerElement);
   }
 
   //> Call render

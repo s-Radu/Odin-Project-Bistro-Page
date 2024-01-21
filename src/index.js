@@ -1,9 +1,9 @@
 import "./style.css";
 import { header } from "./header";
 import { homePage } from "./home";
+import { footer } from "./footer";
 
 const bistroPage = (function () {
-  
   //> Render the DOM elements here so we can later create and assign variables directly
   //> Cach the content element that's already on the DOM
   const content = document.getElementById("content");
@@ -11,9 +11,11 @@ const bistroPage = (function () {
   function _render() {
     let headerElement = header();
     let homePageElement = homePage();
+    let footerElement = footer();
 
     content.appendChild(headerElement);
     content.appendChild(homePageElement);
+    content.appendChild(footerElement);
   }
 
   //> Call render
