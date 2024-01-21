@@ -564,15 +564,28 @@ video {
 .relative {
   position: relative;
 }
+.inset-0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
 .-bottom-40 {
   bottom: -10rem;
 }
 .-left-4 {
   left: -1rem;
 }
+.m-2 {
+  margin: 0.5rem;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .mb-1 {
   margin-bottom: 0.25rem;
@@ -609,6 +622,12 @@ video {
 }
 .h-\\[50px\\] {
   height: 50px;
+}
+.h-\\[60rem\\] {
+  height: 60rem;
+}
+.w-1\\/2 {
+  width: 50%;
 }
 .w-32 {
   width: 8rem;
@@ -693,14 +712,33 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.justify-evenly {
+  justify-content: space-evenly;
+}
 .overflow-hidden {
   overflow: hidden;
 }
 .rounded {
   border-radius: 0.25rem;
 }
+.rounded-2xl {
+  border-radius: 1rem;
+}
 .rounded-full {
   border-radius: 9999px;
+}
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgba(156, 163, 175, 1);
+  border-color: rgba(156, 163, 175, var(--tw-border-opacity));
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 .bg-slate-700 {
   --tw-bg-opacity: 1;
@@ -712,18 +750,41 @@ video {
   background-color: rgba(255, 255, 255, 1);
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
+.bg-cover {
+  background-size: cover;
+}
+.bg-center {
+  background-position: center;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
 .p-2 {
   padding: 0.5rem;
 }
 .p-5 {
   padding: 1.25rem;
 }
+.pb-4 {
+  padding-bottom: 1rem;
+}
+.text-center {
+  text-align: center;
+}
 .font-josefin {
   font-family: Josefin Sans, sans-serif;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .text-gray-400 {
   --tw-text-opacity: 1;
@@ -739,6 +800,9 @@ video {
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, 1);
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+.opacity-50 {
+  opacity: 0.5;
 }
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
@@ -766,6 +830,13 @@ video {
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 .transition-all {
   transition-property: all;
@@ -887,6 +958,11 @@ video {
     position: relative;
   }
 
+  .md\\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
   .md\\:ml-4 {
     margin-left: 1rem;
   }
@@ -905,6 +981,10 @@ video {
 
   .md\\:h-20 {
     height: 5rem;
+  }
+
+  .md\\:h-\\[45rem\\] {
+    height: 45rem;
   }
 
   .md\\:w-24 {
@@ -930,7 +1010,23 @@ video {
     padding-left: 1rem;
   }
 }
-`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["@import \"tailwindcss/base\";\n@import \"tailwindcss/components\";\n@import \"tailwindcss/utilities\";\n\n@font-face {\n  font-family: \"Nunito\";\n  src: url(\"./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Josefin Sans\";\n  src: url(\"./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  src: url(\"./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n"],"sourceRoot":""}]);
+
+@media (min-width: 1024px) {
+
+  .lg\\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .xl\\:mx-36 {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
+}
+`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["@import \"tailwindcss/base\";\n@import \"tailwindcss/components\";\n@import \"tailwindcss/utilities\";\n\n@font-face {\n  font-family: \"Nunito\";\n  src: url(\"./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Josefin Sans\";\n  src: url(\"./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  src: url(\"./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1429,8 +1525,8 @@ function header() {
   let header = document.createElement("header");
   header.className = "text-gray-400 font-josefin body-font flex items-center";
   header.innerHTML = `
-        <div class="container mx-auto flex flex-wrap p-5 justify-between items-center">
-                <img src="./images/2abf6943a02ead9bb54a.png" alt="Bistro: Lebăda neagră"
+        <div class="container mx-auto flex flex-wrap p-5 justify-between items-center border-b-2 border-gray-400">
+                <img src="${_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_0__}" alt="Bistro: Lebăda neagră"
                     class="w-32 md:w-24 cursor-pointer home">
                 <nav
                     class="hidden md:relative md:flex md:mr-auto md:ml-4 md:py-1 md:h-20 md:pl-4 md:border-l md:border-gray-400  flex-wrap items-center text-base justify-center">
@@ -1521,6 +1617,50 @@ function header() {
 
 /***/ }),
 
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   homePage: () => (/* binding */ homePage)
+/* harmony export */ });
+/* harmony import */ var _assets_images_home_page_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/images/home-page.jpg */ "./src/assets/images/home-page.jpg");
+
+
+function homePage() {
+  let homePage = document.createElement("div");
+  homePage.className =
+    "relative container mx-auto my-4 bg-cover bg-no-repeat bg-center rounded-2xl h-[60rem] md:h-[45rem]";
+  homePage.style.backgroundImage = `url(${_assets_images_home_page_jpg__WEBPACK_IMPORTED_MODULE_0__})`;
+  homePage.innerHTML = `
+  <div class="absolute inset-0 bg-black opacity-50 rounded-2xl"></div>
+            <div class="absolute inset-0 container mx-auto flex flex-col justify-evenly items-center rounded-2xl">
+                <h1 class="relative text-white text-center font-josefin text-5xl p-2 pb-4 border-b-2 w-1/2">Bistro:
+                    Lebăda
+                    neagră
+                </h1>
+                <p class="relative font-josefin text-xl p-2 text-center text-white m-2 md:mx-10 lg:mx-20 xl:mx-36">
+                    Welcome to our cozy and inviting bistro, where everyone is embraced with open arms. Whether you're a
+                    student seeking a place to study with good music and delicious food, a bookworm in need of a
+                    relaxing corner, or someone looking to savor a delightful meal with friends, our bistro is the
+                    perfect haven for you. We take pride in offering separate areas that cater to both focused studying
+                    and social gatherings, ensuring that everyone feels at home. Our menu features simple yet flavorful
+                    dishes made with fresh, seasonal ingredients, and we are committed to providing a comfortable space
+                    for you to enjoy good food and conversation. Come and experience the unique blend of casual comfort
+                    and quality dining that our bistro has to offer
+                </p>
+            </div>
+    `;
+
+  return homePage;
+}
+
+
+/***/ }),
+
 /***/ "./src/assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf":
 /*!*************************************************************************!*\
   !*** ./src/assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf ***!
@@ -1548,6 +1688,16 @@ module.exports = __webpack_require__.p + "7e687123cd4528224ce5.ttf";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "61b71ee93d55d9bddead.ttf";
+
+/***/ }),
+
+/***/ "./src/assets/images/home-page.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/home-page.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/5fce6fe46a6e4cadecf5.jpg";
 
 /***/ }),
 
@@ -1707,61 +1857,94 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ "./src/header.js");
+/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ "./src/home.js");
 
 
 
-const content = document.getElementById("content");
 
-let headerElement = (0,_header__WEBPACK_IMPORTED_MODULE_1__.header)();
-content.appendChild(headerElement);
+const bistroPage = (function () {
+  //> Render the DOM elements here so we can later create and assign variables directly
+  //> Cach the content element that's already on the DOM
+  const content = document.getElementById("content");
 
-let hamburgherItems = document.getElementById("hamburgherItems");
+  function _render() {
+    let headerElement = (0,_header__WEBPACK_IMPORTED_MODULE_1__.header)();
+    let homePageElement = (0,_home__WEBPACK_IMPORTED_MODULE_2__.homePage)();
 
-//? The below focuses on the hamburgher button and toggles the menu, reweite it to be more efficient, for the moment it works
-
-document.addEventListener("focusin", (e) => {
-  if (e.target.closest("#hamburgherButton")) {
-    hamburgherItems.classList.remove("animate-fadeOut");
-    hamburgherItems.classList.remove("hidden");
+    content.appendChild(headerElement);
+    content.appendChild(homePageElement);
   }
-});
 
-document.addEventListener("focusout", (e) => {
-  if (e.target.closest("#hamburgherButton")) {
-    hamburgherItems.classList.add("animate-fadeOut");
-    hamburgherItems.addEventListener("animationend", () => {
-      hamburgherItems.classList.add("hidden");
-    });
+  //> Call render
+  _render();
+
+  let hamburgherItems = content.querySelector("#hamburgherItems");
+  let themeToggler = content.querySelector("#theme-toggle");
+
+  //> Event Listeners
+
+  function _bindEvents() {
+    document.addEventListener("focusin", _handleFocusIn);
+    document.addEventListener("focusout", _handleFocusOut);
+    themeToggler.addEventListener(
+      "click",
+      _handleDarkModeToggler.bind(themeToggler)
+    );
   }
-});
 
-document.addEventListener("click", (e) => {
-  let classList = e.target.classList;
-  if (
-    classList.contains("home") ||
-    classList.contains("foods") ||
-    classList.contains("drinks") ||
-    classList.contains("contact")
-  ) {
-    console.log(`clicked ${classList}`);
+  function _handleFocusIn(e) {
+    if (e.target.closest("#hamburgherButton")) {
+      hamburgherItems.classList.remove("animate-fadeOut");
+      hamburgherItems.classList.remove("hidden");
+    }
   }
-});
 
-//? Dark mode toggle
+  function _handleFocusOut(e) {
+    if (e.target.closest("#hamburgherButton")) {
+      hamburgherItems.classList.add("animate-fadeOut");
+      hamburgherItems.addEventListener(
+        "animationend",
+        _removeHamburgherAnimation
+      );
+    }
+  }
 
-document.getElementById("theme-toggle").addEventListener("click", function () {
-  let isDark = document.documentElement.classList.toggle("dark");
+  function _removeHamburgherAnimation() {
+    hamburgherItems.classList.add("hidden");
+  }
 
-  // Switch the icon
-  document.getElementById("sun-icon").style.display = isDark ? "none" : "block";
-  document.getElementById("moon-icon").style.display = isDark
-    ? "block"
-    : "none";
+  function _handleDarkModeToggler() {
+    //> select the HTML element which holds the class of dark, since we use tailwindcss for dark mode
+    let isDark = document.documentElement.classList.toggle("dark");
 
-  // Update local storage and aria-label
-  localStorage.setItem("theme-preference", isDark ? "dark" : "light");
-  this.setAttribute("aria-label", isDark ? "dark" : "light");
-});
+    //> Switch the icon
+    content.querySelector("#sun-icon").style.display = isDark
+      ? "none"
+      : "block";
+    content.querySelector("#moon-icon").style.display = isDark
+      ? "block"
+      : "none";
+
+    //> Update local storage and aria-label
+    localStorage.setItem("theme-preference", isDark ? "dark" : "light");
+    this.setAttribute("aria-label", isDark ? "dark" : "light");
+  }
+
+  document.addEventListener("click", (e) => {
+    let classList = e.target.classList;
+    if (
+      classList.contains("home") ||
+      classList.contains("foods") ||
+      classList.contains("drinks") ||
+      classList.contains("contact")
+    ) {
+      //? here we will do the transition between pages
+    }
+  });
+
+  //> Call Event Listeners
+  _bindEvents();
+})();
 
 })();
 

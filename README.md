@@ -59,3 +59,10 @@ Now you can open your browser and visit localhost:3000 to view the project.
 # Author
 
 [lilVoid](https://github.com/s-Radu)
+
+---
+
+### Images
+
+Most images have been downloaded from [Unsplash](https://unsplash.com/)
+Thanks to all artists!!

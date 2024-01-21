@@ -4,8 +4,8 @@ export function header() {
   let header = document.createElement("header");
   header.className = "text-gray-400 font-josefin body-font flex items-center";
   header.innerHTML = `
-        <div class="container mx-auto flex flex-wrap p-5 justify-between items-center">
-                <img src="./images/2abf6943a02ead9bb54a.png" alt="Bistro: Lebăda neagră"
+        <div class="container mx-auto flex flex-wrap p-5 justify-between items-center border-b-2 border-gray-400">
+                <img src="${logo}" alt="Bistro: Lebăda neagră"
                     class="w-32 md:w-24 cursor-pointer home">
                 <nav
                     class="hidden md:relative md:flex md:mr-auto md:ml-4 md:py-1 md:h-20 md:pl-4 md:border-l md:border-gray-400  flex-wrap items-center text-base justify-center">

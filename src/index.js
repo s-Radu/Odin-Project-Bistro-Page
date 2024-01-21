@@ -1,5 +1,6 @@
 import "./style.css";
 import { header } from "./header";
+import { homePage } from "./home";
 
 const bistroPage = (function () {
   //> Render the DOM elements here so we can later create and assign variables directly
@@ -8,8 +9,10 @@ const bistroPage = (function () {
 
   function _render() {
     let headerElement = header();
+    let homePageElement = homePage();
 
     content.appendChild(headerElement);
+    content.appendChild(homePageElement);
   }
 
   //> Call render
