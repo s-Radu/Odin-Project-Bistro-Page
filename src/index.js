@@ -3,6 +3,7 @@ import { header } from "./header";
 import { homePage } from "./home";
 
 const bistroPage = (function () {
+  
   //> Render the DOM elements here so we can later create and assign variables directly
   //> Cach the content element that's already on the DOM
   const content = document.getElementById("content");

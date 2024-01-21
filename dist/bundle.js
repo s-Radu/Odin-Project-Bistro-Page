@@ -570,11 +570,14 @@ video {
   bottom: 0px;
   left: 0px;
 }
-.-bottom-40 {
-  bottom: -10rem;
+.-bottom-44 {
+  bottom: -11rem;
 }
-.-left-4 {
-  left: -1rem;
+.-left-10 {
+  left: -2.5rem;
+}
+.z-10 {
+  z-index: 10;
 }
 .m-2 {
   margin: 0.5rem;
@@ -608,8 +611,8 @@ video {
 .hidden {
   display: none;
 }
-.h-36 {
-  height: 9rem;
+.h-40 {
+  height: 10rem;
 }
 .h-6 {
   height: 1.5rem;
@@ -625,6 +628,9 @@ video {
 }
 .h-\\[60rem\\] {
   height: 60rem;
+}
+.h-full {
+  height: 100%;
 }
 .w-1\\/2 {
   width: 50%;
@@ -643,9 +649,6 @@ video {
 }
 .w-\\[50px\\] {
   width: 50px;
-}
-.w-\\[6\\.5rem\\] {
-  width: 6.5rem;
 }
 .origin-center {
   transform-origin: center;
@@ -727,6 +730,9 @@ video {
 .rounded-full {
   border-radius: 9999px;
 }
+.rounded-xl {
+  border-radius: 0.75rem;
+}
 .border-b-2 {
   border-bottom-width: 2px;
 }
@@ -740,15 +746,13 @@ video {
   background-color: rgba(0, 0, 0, 1);
   background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
-.bg-slate-700 {
+.bg-gray-400 {
   --tw-bg-opacity: 1;
-  background-color: rgba(51, 65, 85, 1);
-  background-color: rgba(51, 65, 85, var(--tw-bg-opacity));
+  background-color: rgba(156, 163, 175, 1);
+  background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
 }
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgba(255, 255, 255, 1);
-  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+.bg-transparent {
+  background-color: transparent;
 }
 .bg-cover {
   background-size: cover;
@@ -764,6 +768,10 @@ video {
 }
 .p-5 {
   padding: 1.25rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -782,9 +790,18 @@ video {
   font-size: 1rem;
   line-height: 1.5rem;
 }
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 .text-gray-400 {
   --tw-text-opacity: 1;
@@ -801,8 +818,8 @@ video {
   color: rgba(255, 255, 255, 1);
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
-.opacity-50 {
-  opacity: 0.5;
+.opacity-70 {
+  opacity: 0.7;
 }
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
@@ -946,10 +963,32 @@ video {
   background-color: rgba(30, 41, 59, var(--tw-bg-opacity));
 }
 
+.dark .dark\\:bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(15, 23, 42, 1);
+  background-color: rgba(15, 23, 42, var(--tw-bg-opacity));
+}
+
+.dark .dark\\:bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
 .dark .dark\\:text-gray-200 {
   --tw-text-opacity: 1;
   color: rgba(229, 231, 235, 1);
   color: rgba(229, 231, 235, var(--tw-text-opacity));
+}
+
+.dark .dark\\:text-white {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.dark .dark\\:opacity-50 {
+  opacity: 0.5;
 }
 
 @media (min-width: 768px) {
@@ -1026,7 +1065,7 @@ video {
     margin-right: 9rem;
   }
 }
-`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["@import \"tailwindcss/base\";\n@import \"tailwindcss/components\";\n@import \"tailwindcss/utilities\";\n\n@font-face {\n  font-family: \"Nunito\";\n  src: url(\"./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Josefin Sans\";\n  src: url(\"./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  src: url(\"./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["@import \"tailwindcss/base\";\n@import \"tailwindcss/components\";\n@import \"tailwindcss/utilities\";\n\n@font-face {\n  font-family: \"Nunito\";\n  src: url(\"./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Josefin Sans\";\n  src: url(\"./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  src: url(\"./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1525,91 +1564,94 @@ function header() {
   let header = document.createElement("header");
   header.className = "text-gray-400 font-josefin body-font flex items-center";
   header.innerHTML = `
-        <div class="container mx-auto flex flex-wrap p-5 justify-between items-center border-b-2 border-gray-400">
-                <img src="${_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_0__}" alt="Bistro: Lebăda neagră"
-                    class="w-32 md:w-24 cursor-pointer home">
-                <nav
-                    class="hidden md:relative md:flex md:mr-auto md:ml-4 md:py-1 md:h-20 md:pl-4 md:border-l md:border-gray-400  flex-wrap items-center text-base justify-center">
-                    <p
-                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
-                        Home</p>
-                    <p
-                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
-                        Foods</p>
-                    <p
-                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
-                        Drinks</p>
-                    <p
-                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 contact">
-                        Contact
-                        Us</p>
-                </nav>
+  <div class="container mx-auto flex flex-wrap p-5 justify-between items-center border-b-2 border-gray-400">
+  <img src="${_assets_images_logo_png__WEBPACK_IMPORTED_MODULE_0__}" alt="Bistro: Lebăda neagră" class="w-32 md:w-24 cursor-pointer home">
+  <nav
+      class="hidden md:relative md:flex md:mr-auto md:ml-4 md:py-1 md:h-20 md:pl-4 md:border-l md:border-gray-400  flex-wrap items-center text-base justify-center">
+      <p
+          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
+          Home</p>
+      <p
+          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
+          Foods</p>
+      <p
+          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
+          Drinks</p>
+      <p
+          class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 contact">
+          Contact
+          Us</p>
+  </nav>
 
 
 
-                    <button id="theme-toggle" class="p-2 rounded-full dark:bg-gray-800">
-                        <svg id="theme-icon" class="h-6 w-6 text-gray-800 dark:text-gray-200 hover:scale-110" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <button id="theme-toggle" class="p-2 rounded-full dark:bg-gray-800">
+      <svg id="theme-icon" class="h-6 w-6 text-gray-800 dark:text-gray-200 hover:scale-110" fill="none"
+          stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 
 
-                            <path id="sun-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                            filter="drop-shadow( 0px 0px 2px #FFFF00 )" style="display: none;"></path>
+          <path id="sun-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+              filter="drop-shadow( 0px 0px 2px #FFFF00 )" style="display: none;"></path>
 
 
-                            <path id="moon-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" fill="#000000" filter="drop-shadow( 0px 0px 2px #ffffff )">
-                            </path>
-                        </svg>
-                    </button>
+          <path id="moon-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" fill="#000000"
+              filter="drop-shadow( 0px 0px 2px #ffffff )">
+          </path>
+      </svg>
+  </button>
 
 
-                    
-                <div class="relative mr-4 md:hidden">
-                    <button class="relative group" id="hamburgherButton">
-                        <div
-                            class="relative flex flex-col overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all bg-slate-700 ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
-                            <div
-                                class="transform transition-all duration-150 overflow-hidden -translate-y-5 group-focus:translate-y-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6h-6 w-6 animate-bounce text-white"
-                                    fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                                </svg>
-                            </div>
 
-                            <div
-                                class="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden -translate-y-3">
-                                <div
-                                    class="bg-white mb-1.5 h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-y-6">
-                                </div>
-                                <div
-                                    class="bg-white mb-1.5 h-[2px] w-7 rounded transform transition-all duration-300 group-focus:translate-y-6 delay-75">
-                                </div>
-                                <div
-                                    class="bg-white h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-y-6 delay-100">
-                                </div>
-                            </div>
-                        </div>
-                    </button>
+  <div class="relative mr-4 md:hidden">
+      <button class="relative group" id="hamburgherButton">
+          <div
+              class="relative flex flex-col overflow-hidden items-center justify-center rounded-full w-[50px] h-[50px] transform transition-all bg-transparent ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
+              <div
+                  class="transform transition-all duration-150 overflow-hidden -translate-y-5 group-focus:translate-y-3">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6h-6 w-6 animate-bounce text-black dark:text-white" fill="none"
+                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+              </div>
 
-                    <div class="hidden flex flex-col gap2 items-center  justify-between absolute -bottom-40 w-[6.5rem] h-36 -left-4 md:hidden"
-                        id="hamburgherItems">
-                        <p
-                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
-                        Home</p>
-                    <p
-                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
-                        Foods</p>
-                    <p
-                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
-                        Drinks</p>
-                    <p
-                        class="mr-5 transform transition-all duration-150 hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 contact">
-                        Contact
-                        Us</p>
-                    </div>
-                </div>
-            </div>
+              <div
+                  class="flex flex-col justify-between w-[20px] h-[20px] transform transition-all duration-300 origin-center overflow-hidden -translate-y-3">
+                  <div
+                      class="bg-black dark:bg-white mb-1.5 h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-y-6">
+                  </div>
+                  <div
+                      class="bg-black dark:bg-white mb-1.5 h-[2px] w-7 rounded transform transition-all duration-300 group-focus:translate-y-6 delay-75">
+                  </div>
+                  <div
+                      class="bg-black dark:bg-white h-[2px] w-7 transform transition-all duration-300 origin-left group-focus:translate-y-6 delay-100">
+                  </div>
+              </div>
+          </div>
+      </button>
+
+      <div class="hidden z-10 bg-gray-400 rounded-xl text-black absolute -bottom-44 w-32 -left-10 h-40 "
+          id="hamburgherItems">
+          <div class="flex flex-col items-center justify-between py-2 h-full">
+              <p
+                  class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
+                  Home</p>
+              <p
+                  class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
+                  Foods</p>
+              <p
+                  class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
+                  Drinks</p>
+              <p
+                  class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 contact">
+                  Contact
+                  Us</p>
+          </div>
+      </div>
+  </div>
+</div>
   `;
   return header;
 }
@@ -1636,7 +1678,7 @@ function homePage() {
     "relative container mx-auto my-4 bg-cover bg-no-repeat bg-center rounded-2xl h-[60rem] md:h-[45rem]";
   homePage.style.backgroundImage = `url(${_assets_images_home_page_jpg__WEBPACK_IMPORTED_MODULE_0__})`;
   homePage.innerHTML = `
-  <div class="absolute inset-0 bg-black opacity-50 rounded-2xl"></div>
+  <div class="absolute inset-0 bg-black opacity-70 dark:opacity-50 rounded-2xl"></div>
             <div class="absolute inset-0 container mx-auto flex flex-col justify-evenly items-center rounded-2xl">
                 <h1 class="relative text-white text-center font-josefin text-5xl p-2 pb-4 border-b-2 w-1/2">Bistro:
                     Lebăda
@@ -1863,6 +1905,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const bistroPage = (function () {
+  
   //> Render the DOM elements here so we can later create and assign variables directly
   //> Cach the content element that's already on the DOM
   const content = document.getElementById("content");

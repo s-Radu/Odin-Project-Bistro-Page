@@ -6,7 +6,7 @@ export function homePage() {
     "relative container mx-auto my-4 bg-cover bg-no-repeat bg-center rounded-2xl h-[60rem] md:h-[45rem]";
   homePage.style.backgroundImage = `url(${homePageBackground})`;
   homePage.innerHTML = `
-  <div class="absolute inset-0 bg-black opacity-50 rounded-2xl"></div>
+  <div class="absolute inset-0 bg-black opacity-70 dark:opacity-50 rounded-2xl"></div>
             <div class="absolute inset-0 container mx-auto flex flex-col justify-evenly items-center rounded-2xl">
                 <h1 class="relative text-white text-center font-josefin text-5xl p-2 pb-4 border-b-2 w-1/2">Bistro:
                     Lebăda
