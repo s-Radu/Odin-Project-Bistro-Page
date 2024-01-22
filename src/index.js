@@ -2,6 +2,7 @@ import "./style.css";
 import { header } from "./header";
 import { homePage } from "./home";
 import { footer } from "./footer";
+import { foodPage } from "./foods";
 
 const bistroPage = (function () {
   //> Render the DOM elements here so we can later create and assign variables directly
@@ -12,9 +13,13 @@ const bistroPage = (function () {
     let headerElement = header();
     let homePageElement = homePage();
     let footerElement = footer();
+    let foodElement = foodPage();
 
     content.appendChild(headerElement);
     content.appendChild(homePageElement);
+    content.appendChild(foodElement);
+
+    //> last element added to the page
     content.appendChild(footerElement);
   }
 
