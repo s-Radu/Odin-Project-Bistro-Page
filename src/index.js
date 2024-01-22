@@ -37,6 +37,9 @@ const bistroPage = (function () {
   function _bindEvents() {
     document.addEventListener("focusin", _handleFocusIn);
     document.addEventListener("focusout", _handleFocusOut);
+    //! Add event listener for touch screens
+    document.addEventListener("touchstart", _handleFocusIn);
+    document.addEventListener("touchend", _handleFocusOut);
     themeToggler.addEventListener(
       "click",
       _handleDarkModeToggler.bind(themeToggler)
