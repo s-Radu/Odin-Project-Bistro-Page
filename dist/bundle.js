@@ -585,11 +585,21 @@ video {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+.col-start-2 {
+  grid-column-start: 2;
+}
 .m-2 {
   margin: 0.5rem;
 }
 .m-4 {
   margin: 1rem;
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .mx-4 {
   margin-left: 1rem;
@@ -602,6 +612,10 @@ video {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .mb-1 {
   margin-bottom: 0.25rem;
@@ -645,11 +659,17 @@ video {
 .h-32 {
   height: 8rem;
 }
-.h-40 {
-  height: 10rem;
+.h-4 {
+  height: 1rem;
+}
+.h-44 {
+  height: 11rem;
 }
 .h-6 {
   height: 1.5rem;
+}
+.h-8 {
+  height: 2rem;
 }
 .h-\\[20px\\] {
   height: 20px;
@@ -681,14 +701,17 @@ video {
 .w-32 {
   width: 8rem;
 }
-.w-5\\/6 {
-  width: 83.333333%;
+.w-4 {
+  width: 1rem;
 }
 .w-6 {
   width: 1.5rem;
 }
 .w-7 {
   width: 1.75rem;
+}
+.w-8 {
+  width: 2rem;
 }
 .w-\\[20px\\] {
   width: 20px;
@@ -758,6 +781,11 @@ video {
 .flex-wrap {
   flex-wrap: wrap;
 }
+.place-content-center {
+  align-content: center;
+  justify-content: center;
+  place-content: center;
+}
 .items-center {
   align-items: center;
 }
@@ -787,6 +815,9 @@ video {
 }
 .rounded-xl {
   border-radius: 0.75rem;
+}
+.border-2 {
+  border-width: 2px;
 }
 .border-b-2 {
   border-bottom-width: 2px;
@@ -862,6 +893,10 @@ video {
 .font-nunito {
   font-family: Nunito, sans-serif;
 }
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -885,6 +920,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 .font-medium {
   font-weight: 500;
@@ -926,6 +965,10 @@ video {
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: 0 0 rgba(0,0,0,0), 0 0 rgba(0,0,0,0), 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);
+}
+.shadow-white {
+  --tw-shadow-color: #fff;
+  --tw-shadow: var(--tw-shadow-colored);
 }
 .ring-0 {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
@@ -1134,6 +1177,10 @@ video {
     grid-column: span 2 / span 2;
   }
 
+  .md\\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
   .md\\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -1179,6 +1226,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\\:flex-row {
     flex-direction: row;
   }
@@ -1205,6 +1256,14 @@ video {
 
 @media (min-width: 1024px) {
 
+  .lg\\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .lg\\:col-start-2 {
+    grid-column-start: 2;
+  }
+
   .lg\\:mx-20 {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -1218,7 +1277,7 @@ video {
     margin-right: 9rem;
   }
 }
-`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["@import \"tailwindcss/base\";\n@import \"tailwindcss/components\";\n@import \"tailwindcss/utilities\";\n\n@font-face {\n  font-family: \"Nunito\";\n  src: url(\"./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Josefin Sans\";\n  src: url(\"./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  src: url(\"./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["@import \"tailwindcss/base\";\n@import \"tailwindcss/components\";\n@import \"tailwindcss/utilities\";\n\n@font-face {\n  font-family: \"Nunito\";\n  src: url(\"./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Josefin Sans\";\n  src: url(\"./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  src: url(\"./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1700,6 +1759,171 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/desserts.js":
+/*!*************************!*\
+  !*** ./src/desserts.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   dessertPage: () => (/* binding */ dessertPage)
+/* harmony export */ });
+/* harmony import */ var _assets_images_dessert_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/images/dessert.jpg */ "./src/assets/images/dessert.jpg");
+
+
+function dessertPage() {
+  let dessertPage = document.createElement("div");
+  dessertPage.className =
+    "relative bg-cover bg-no-repeat bg-center rounded-2xl m-4 container mx-auto grid grid-cols-1 md:grid-cols-3 place-content-center min-h-[92rem] dark:text-white";
+  dessertPage.style.backgroundImage = `url(${_assets_images_dessert_jpg__WEBPACK_IMPORTED_MODULE_0__})`;
+  dessertPage.innerHTML = `
+  <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
+
+            <h1 class="relative font-josefin text-5xl text-center my-4 col-span-3">Desserts</h1>
+
+
+            <div
+                class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2 opacity-70 col-span-3 lg:col-span-1 lg:col-start-2 hover:opacity-100">
+
+                <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
+
+                    <div class="flex justify-between items-center w-full">
+                        <details class="font-montserat">
+                            <summary class="text-lg cursor-pointer flex items-center">Sticky Toffee Pudding
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                            </summary>
+                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                                With vanilla ice cream.
+                            </p>
+                        </details>
+                        <span class="text-lg m-4">RON 45</span>
+                    </div>
+
+                    <div class="flex justify-between items-center w-full">
+                        <details class="font-montserat">
+                            <summary class="text-lg cursor-pointer flex items-center">Pot au chocolat
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                            </summary>
+                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                                Rich chocolate mousse with raspberry coulis layer, fresh raspberries and a sable
+                                biscuit.
+                            </p>
+                        </details>
+                        <span class="text-lg m-4">RON 40</span>
+                    </div>
+
+                    <div class="flex justify-between items-center w-full">
+                        <details class="font-montserat">
+                            <summary class="text-lg cursor-pointer flex items-center">Creme brulee
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                            </summary>
+                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                                French classic. Vanilla creme brulee freshly made by our chefs every day.
+                            </p>
+                        </details>
+                        <span class="text-lg m-4">RON 50</span>
+                    </div>
+
+                    <div class="flex justify-between items-center w-full">
+                        <details class="font-montserat">
+                            <summary class="text-lg cursor-pointer flex items-center">Champagne sorbet
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                            </summary>
+                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                                Champagne sorbet with fresh raspberries and a shot of Champagne
+                            </p>
+                        </details>
+                        <span class="text-lg m-4">RON 55</span>
+                    </div>
+
+                    <div class="flex justify-between items-center w-full">
+                        <details class="font-montserat">
+                            <summary class="text-lg cursor-pointer flex items-center">Praline & Chocolate bombe
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                            </summary>
+                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                                iced praline cream with amaretti biscuit in a chocolate shell, with warm chocolate
+                                sauce.
+                            </p>
+                        </details>
+                        <span class="text-lg m-4">RON 55</span>
+                    </div>
+
+                    <div class="flex justify-between items-center w-full">
+                        <details class="font-montserat">
+                            <summary class="text-lg cursor-pointer flex items-center">Tarte au citron
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                            </summary>
+                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                                With raspberry coulis and creme Chantilly.
+                            </p>
+                        </details>
+                        <span class="text-lg m-4">RON 50</span>
+                    </div>
+
+                    <div class="flex justify-between items-center w-full">
+                        <details class="font-montserat">
+                            <summary class="text-lg cursor-pointer flex items-center">Organic ice cream & sorbet
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                            </summary>
+                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                                Please ask for flavours
+                            </p>
+                        </details>
+                        <span class="text-lg m-4">RON 35</span>
+                    </div>
+
+                    <div class="flex justify-between items-center w-full">
+                        <details class="font-montserat">
+                            <summary class="text-lg cursor-pointer flex items-center">Chocolate brownie
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                            </summary>
+                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                                With warm chocolate sauce and salted caramel ice cream.
+                            </p>
+                        </details>
+                        <span class="text-lg m-4">RON 50</span>
+                    </div>
+
+                </div>
+            </div>
+  `;
+
+  return dessertPage;
+}
+
+
+/***/ }),
+
 /***/ "./src/foods.js":
 /*!**********************!*\
   !*** ./src/foods.js ***!
@@ -1717,21 +1941,27 @@ function foodPage() {
   let foodMenu = document.createElement("div");
   foodMenu.style.backgroundImage = `url(${_assets_images_breakfast_menu_jpg__WEBPACK_IMPORTED_MODULE_0__})`;
   foodMenu.className =
-    "relative bg-cover bg-no-repeat bg-center rounded-2xl container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 min-h-[92rem] dark:text-white";
+    "relative bg-cover bg-no-repeat bg-center rounded-2xl container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 min-h-[92rem] text-white";
   foodMenu.innerHTML = `
-    <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
+  <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
 
-            <h1 class="relative font-josefin text-5xl text-center my-4 md:col-span-2">Breakfast Menu</h1>
+            <h1 class="relative font-josefin text-5xl text-center my-6 md:col-span-2">Breakfast Menu</h1>
 
 
-            <div class="relative flex flex-col items-center m-2 opacity-70 hover:opacity-100">
+            <div
+                class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2 opacity-70 hover:opacity-100">
                 <h1 class="font-josefin text-3xl text-center my-4 col-span-2">Full Breakfast</h1>
 
-                <div class="flex flex-col justify-between items-center min-h-[91rem] w-full mx-4">
+                <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">Full Breakfast</summary>
+                            <summary class="text-lg cursor-pointer flex items-center">Full Breakfast
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                            </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">1 Local pork
                                 sausage, 2
                                 rashers
@@ -1748,7 +1978,12 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">Full Steam Ahead</summary>
+                            <summary class="text-lg cursor-pointer flex items-center">Full Steam Ahead
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                            </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 2 Local pork sausages, 2 rashers of smoked bacon, 2 fried eggs, mushrooms, grilled
                                 tomato, baked beans, hash brown and black pudding. With a choice of white toast,
@@ -1760,7 +1995,16 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">Vegetarian Breakfast</summary>
+                            <summary class="text-lg cursor-pointer flex items-center">Vegetarian Breakfast
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                            </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 2 Veggie sausages, fried egg, mushrooms with spinach, grilled tomato, hash brown, baked
                                 beans. With a choice of white toast, wholemeal toast or fried slice.
@@ -1771,7 +2015,12 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">The Junior</summary>
+                            <summary class="text-lg cursor-pointer flex  items-center">The Junior
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                            </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 1 pork sausage, 1 smoked bacon, fried egg and baked beans. With a choice of white toast
                                 or wholemeal toast.
@@ -1782,7 +2031,7 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">American Style Pancakes
+                            <summary class="text-lg cursor-pointer flex">American Style Pancakes
                             </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Served with syrup and fresh fruit.
@@ -1793,7 +2042,7 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">Toasted Waffles
+                            <summary class="text-lg cursor-pointer flex">Toasted Waffles
                             </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Served with syrup and fresh fruit.
@@ -1804,7 +2053,11 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer w-5/6">Breakfast Burger
+                            <summary class="text-lg cursor-pointer flex items-center">Breakfast Burger
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
                             </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Floured bap filled with sausage, smoked bacon, fried egg and hash brown.
@@ -1815,7 +2068,15 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer w-5/6">Veggie Breakfast Burger
+                            <summary class="text-lg cursor-pointer flex items-center">Veggie Breakfast Burger
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
                             </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Floured bap with veggie sausage, mushroom and spinach, fried egg and hash brown.
@@ -1827,14 +2088,24 @@ function foodPage() {
                 </div>
             </div>
 
-            <div class="relative flex flex-col items-center m-2  opacity-70 hover:opacity-100">
+            <div
+                class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2  opacity-70 hover:opacity-100">
                 <h1 class="font-josefin text-3xl text-center my-4 col-span-2">Light Breakfast</h1>
 
                 <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">Scrambled eggs on toast</summary>
+                            <summary class="text-lg cursor-pointer flex items-center">Scrambled eggs on toast
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                            </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Add Crispy Bacon -- RON 10
                                 Add Smoaked Salmon -- RON 15
@@ -1845,7 +2116,16 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">Sqashed Avocado</summary>
+                            <summary class="text-lg cursor-pointer flex items-center">Sqashed Avocado
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
+                            </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Served on either white or granary toast with poached eggs and grilled tomatoes.
                             </p>
@@ -1855,7 +2135,12 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">Smokey Bacon Sandwich</summary>
+                            <summary class="text-lg cursor-pointer flex items-center">Smokey Bacon Sandwich
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                            </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 3 rashes of bacon on white or granary bread.
                             </p>
@@ -1865,7 +2150,12 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">Sausage Sandwich</summary>
+                            <summary class="text-lg cursor-pointer flex items-center">Sausage Sandwich
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                            </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 2 pork sausages on white or granary bread.
                             </p>
@@ -1875,7 +2165,11 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">Eggs Benedict
+                            <summary class="text-lg cursor-pointer flex items-center">Eggs Benedict
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
                             </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Toasted floured breakfast muffin topped with organic ham, poached eggs and hallandaise
@@ -1887,7 +2181,11 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer">Eggs Royal
+                            <summary class="text-lg cursor-pointer flex items-center">Eggs Royal
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
                             </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Toasted floured breakfast muffin topped with smoked salmon, poached eggs and hallandaise
@@ -1899,7 +2197,15 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer w-5/6">Eggs Florentine
+                            <summary class="text-lg cursor-pointer flex items-center">Eggs Florentine
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
                             </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Toasted floured breakfast muffin topped with spinach, poached eggs and hallandaise
@@ -1911,7 +2217,15 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer w-5/6">Beans on Toast
+                            <summary class="text-lg cursor-pointer flex items-center">Beans on Toast
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
                             </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Served with white or granary toast.
@@ -1922,7 +2236,15 @@ function foodPage() {
 
                     <div class="flex justify-between items-center w-full">
                         <details class="font-montserat">
-                            <summary class="text-lg cursor-pointer w-5/6">Mushrooms and spinach on toast
+                            <summary class="text-lg cursor-pointer flex items-center">Mushrooms and spinach on toast
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">GF</span>
+                                </div>
+                                <div
+                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                    <span class="text-xs">V</span>
+                                </div>
                             </summary>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Sauted seasoned mushrooms with spinach on a choice of white or granary toast
@@ -1931,6 +2253,27 @@ function foodPage() {
                         <span class="text-lg m-4">RON 45</span>
                     </div>
 
+                </div>
+            </div>
+
+            <div class="relative font-josefin mx-auto my-4 border-2 rounded-2xl md:col-span-2">
+                <h1 class="text-2xl p-4">Allergies / Dietary Requirements</h1>
+                <p class="font-nunito text-sm p-4">Please speak to server if you have any allergies and dietary
+                    requirements. All dishes are prepated fresh so most can be adapted to meet your needs.</p>
+
+                <div class="flex m-4 items-center">
+                    <div
+                        class="bg-black rounded-full shadow-white shadow-md h-8 w-8 text-white flex justify-center items-center">
+                        <span class="text-sm">GF</span>
+                    </div>
+                    <p class="mx-4">Gluten Free Adaptable</p>
+                </div>
+                <div class="flex m-4 items-center">
+                    <div
+                        class="bg-black rounded-full shadow-white shadow-md h-8 w-8 text-white flex justify-center items-center">
+                        <span class="text-sm">V</span>
+                    </div>
+                    <p class="mx-4">Vegetarian</p>
                 </div>
             </div>
     `;
@@ -2011,6 +2354,9 @@ function header() {
           class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 foods">
           Foods</p>
       <p
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 desserts">
+          Desserts</p>
+      <p
           class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 drinks">
           Drinks</p>
       <p
@@ -2068,7 +2414,7 @@ function header() {
           </div>
       </button>
 
-      <div class="hidden z-10 bg-gray-400 rounded-xl text-black absolute -bottom-44 w-32 -left-10 h-40 "
+      <div class="hidden z-10 bg-gray-400 rounded-xl text-black absolute -bottom-44 w-32 -left-10 h-44 "
           id="hamburgherItems">
           <div class="flex flex-col items-center justify-between py-2 h-full">
               <p
@@ -2077,6 +2423,9 @@ function header() {
               <p
                   class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
                   Foods</p>
+              <p
+                  class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 desserts">
+                  Desserts</p>
               <p
                   class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
                   Drinks</p>
@@ -2176,6 +2525,16 @@ module.exports = __webpack_require__.p + "61b71ee93d55d9bddead.ttf";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "images/443296d2936b1093834c.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/dessert.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/images/dessert.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/52679553b245bb408118.jpg";
 
 /***/ }),
 
@@ -2348,6 +2707,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ "./src/home.js");
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ "./src/footer.js");
 /* harmony import */ var _foods__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./foods */ "./src/foods.js");
+/* harmony import */ var _desserts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./desserts */ "./src/desserts.js");
+
 
 
 
@@ -2364,10 +2725,12 @@ const bistroPage = (function () {
     let homePageElement = (0,_home__WEBPACK_IMPORTED_MODULE_2__.homePage)();
     let footerElement = (0,_footer__WEBPACK_IMPORTED_MODULE_3__.footer)();
     let foodElement = (0,_foods__WEBPACK_IMPORTED_MODULE_4__.foodPage)();
+    let dessertElement = (0,_desserts__WEBPACK_IMPORTED_MODULE_5__.dessertPage)();
 
     content.appendChild(headerElement);
     content.appendChild(homePageElement);
     content.appendChild(foodElement);
+    content.appendChild(dessertElement);
 
     //> last element added to the page
     content.appendChild(footerElement);

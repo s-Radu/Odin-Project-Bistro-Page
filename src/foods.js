@@ -4,7 +4,7 @@ export function foodPage() {
   let foodMenu = document.createElement("div");
   foodMenu.style.backgroundImage = `url(${breakfastBackground})`;
   foodMenu.className =
-    "relative bg-cover bg-no-repeat bg-center rounded-2xl container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 min-h-[92rem] dark:text-white";
+    "relative bg-cover bg-no-repeat bg-center rounded-2xl container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 min-h-[92rem] text-white";
   foodMenu.innerHTML = `
   <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
 
@@ -326,14 +326,14 @@ export function foodPage() {
 
                 <div class="flex m-4 items-center">
                     <div
-                        class="bg-black rounded-full shadow-white shadow-md h-9 w-9 text-white flex justify-center items-center">
+                        class="bg-black rounded-full shadow-white shadow-md h-8 w-8 text-white flex justify-center items-center">
                         <span class="text-sm">GF</span>
                     </div>
                     <p class="mx-4">Gluten Free Adaptable</p>
                 </div>
                 <div class="flex m-4 items-center">
                     <div
-                        class="bg-black rounded-full shadow-white shadow-md h-9 w-9 text-white flex justify-center items-center">
+                        class="bg-black rounded-full shadow-white shadow-md h-8 w-8 text-white flex justify-center items-center">
                         <span class="text-sm">V</span>
                     </div>
                     <p class="mx-4">Vegetarian</p>

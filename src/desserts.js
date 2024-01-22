@@ -1,38 +1,18 @@
-<!DOCTYPE html>
-<html lang="en" class="dark ">
+import dessertBackground from "./assets/images/dessert.jpg";
 
-<head>
+export function dessertPage() {
+  let dessertPage = document.createElement("div");
+  dessertPage.className =
+    "relative bg-cover bg-no-repeat bg-center rounded-2xl m-4 container mx-auto grid grid-cols-1 md:grid-cols-3 place-content-center min-h-[92rem] dark:text-white";
+  dessertPage.style.backgroundImage = `url(${dessertBackground})`;
+  dessertPage.innerHTML = `
+  <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
 
-    <meta name="description"
-        content="Welcome to our Bistro Restaurant. We offer a variety of delicious dishes in a cozy atmosphere.">
-    <meta name="keywords" content="Bistro, Restaurant, Food, Dining, Cozy">
-    <meta name="author" content="Bistro: Lebăda neagră">
-    <meta property="og:title" content="Bistro Restaurant">
-    <meta property="og:description"
-        content="Welcome to our Bistro Restaurant. We offer a variety of delicious dishes in a cozy atmosphere.">
-    <meta property="og:image" content="./assets/images/favicon.png">
-    <meta property="og:url" content="https://bistro-page-five.vercel.app/">
-    <link rel="icon" href="./images/logo.png" type="image/x-icon">
-
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Bistro: Lebăda neagră</title>
-    <script defer="defer" src="bundle.js"></script>
-</head>
-
-<body class="dark:bg-slate-900 transition-all duration-150 ">
-    <div id="content" class="dark:bg-slate-900">
-
-        <!-- <div class="relative bg-cover bg-no-repeat bg-center rounded-2xl container mx-auto grid grid-cols-1 md:grid-cols-3 place-content-center gap-4 min-h-[92rem] dark:text-white"
-            style="background-image: url('./images/breakfast-menu.jpg');">
-            <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
-
-            <h1 class="relative font-josefin text-5xl text-center my-4 md:col-span-3">Desserts</h1>
+            <h1 class="relative font-josefin text-5xl text-center my-4 col-span-3">Desserts</h1>
 
 
             <div
-                class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2 opacity-70 col-start-2 hover:opacity-100">
+                class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2 opacity-70 col-span-3 lg:col-span-1 lg:col-start-2 hover:opacity-100">
 
                 <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
 
@@ -164,12 +144,7 @@
 
                 </div>
             </div>
+  `;
 
-        </div> -->
-
-    </div>
-
-
-</body>
-
-</html>
+  return dessertPage;
+}

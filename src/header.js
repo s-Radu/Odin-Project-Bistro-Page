@@ -15,6 +15,9 @@ export function header() {
           class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 foods">
           Foods</p>
       <p
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 desserts">
+          Desserts</p>
+      <p
           class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 drinks">
           Drinks</p>
       <p
@@ -72,7 +75,7 @@ export function header() {
           </div>
       </button>
 
-      <div class="hidden z-10 bg-gray-400 rounded-xl text-black absolute -bottom-44 w-32 -left-10 h-40 "
+      <div class="hidden z-10 bg-gray-400 rounded-xl text-black absolute -bottom-44 w-32 -left-10 h-44 "
           id="hamburgherItems">
           <div class="flex flex-col items-center justify-between py-2 h-full">
               <p
@@ -81,6 +84,9 @@ export function header() {
               <p
                   class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
                   Foods</p>
+              <p
+                  class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 desserts">
+                  Desserts</p>
               <p
                   class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
                   Drinks</p>
