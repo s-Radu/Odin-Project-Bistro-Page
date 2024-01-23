@@ -3,6 +3,7 @@ import { header } from "./header";
 import { homePage } from "./home";
 import { footer } from "./footer";
 import { foodPage } from "./foods";
+import { drinksPage } from "./drinks";
 import { dessertPage } from "./desserts";
 
 const bistroPage = (function () {
@@ -13,14 +14,17 @@ const bistroPage = (function () {
   function _render() {
     let headerElement = header();
     let homePageElement = homePage();
-    let footerElement = footer();
     let foodElement = foodPage();
     let dessertElement = dessertPage();
+    let drinksElement = drinksPage();
+
+    let footerElement = footer();
 
     content.appendChild(headerElement);
     content.appendChild(homePageElement);
     content.appendChild(foodElement);
     content.appendChild(dessertElement);
+    content.appendChild(drinksElement);
 
     //> last element added to the page
     content.appendChild(footerElement);

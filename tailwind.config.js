@@ -4,6 +4,12 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      gridTemplateRows: {
+        autoFill: "repeat(auto-fill, minmax(200px, 1fr))",
+      },
+      gridTemplateColumns: {
+        autoFill: "repeat(auto-fill, minmax(200px, 1fr))",
+      },
       fontFamily: {
         nunito: ["Nunito", "sans-serif"],
         josefin: ["Josefin Sans", "sans-serif"],
