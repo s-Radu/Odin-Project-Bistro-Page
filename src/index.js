@@ -6,6 +6,9 @@ import { foodPage } from "./foods";
 import { drinksPage } from "./drinks";
 import { dessertPage } from "./desserts";
 
+import { initMap } from "./contanct";
+initMap();
+
 const bistroPage = (function () {
   //> Render the DOM elements here so we can later create and assign variables directly
   //> Cach the content element that's already on the DOM

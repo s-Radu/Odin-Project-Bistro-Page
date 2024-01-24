@@ -1784,6 +1784,7 @@ function dessertPage() {
   let dessertPage = document.createElement("div");
   dessertPage.className =
     "relative bg-cover bg-no-repeat bg-center rounded-2xl m-4 container mx-auto grid grid-cols-1 place-content-center min-h-[92rem] text-white";
+  dessertPage.id = "dessertPage";
   dessertPage.style.backgroundImage = `url(${_assets_images_dessert_jpg__WEBPACK_IMPORTED_MODULE_0__})`;
   dessertPage.innerHTML = `
             <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
@@ -1948,6 +1949,7 @@ function drinksPage() {
   let drinksPage = document.createElement("div");
   drinksPage.className =
     "relative bg-cover bg-no-repeat bg-center rounded-2xl m-4 container mx-auto grid grid-cols-1 place-content-center min-h-[92rem] text-white";
+  drinksPage.id = "drinksPage";
   drinksPage.style.backgroundImage = `url(${_assets_images_drinks_jpg__WEBPACK_IMPORTED_MODULE_0__})`;
   drinksPage.innerHTML = `
     <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
@@ -2590,6 +2592,7 @@ function foodPage() {
   foodMenu.style.backgroundImage = `url(${_assets_images_breakfast_menu_jpg__WEBPACK_IMPORTED_MODULE_0__})`;
   foodMenu.className =
     "relative bg-cover bg-no-repeat bg-center rounded-2xl container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 min-h-[92rem] text-white";
+  foodMenu.id = "foodPage";
   foodMenu.innerHTML = `
   <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
 

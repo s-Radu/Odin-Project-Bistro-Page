@@ -5,6 +5,7 @@ export function foodPage() {
   foodMenu.style.backgroundImage = `url(${breakfastBackground})`;
   foodMenu.className =
     "relative bg-cover bg-no-repeat bg-center rounded-2xl container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 min-h-[92rem] text-white";
+  foodMenu.id = "foodPage";
   foodMenu.innerHTML = `
   <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
 
