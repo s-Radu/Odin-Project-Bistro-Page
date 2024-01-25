@@ -49,15 +49,39 @@ const bistroPage = (function () {
     document.addEventListener("focusin", _handleFocusIn);
     document.addEventListener("focusout", _handleFocusOut);
 
+    document.addEventListener("mouseover", _showTooltip);
+    document.addEventListener("mouseout", _hideTooltip);
+
     themeToggler.addEventListener(
       "click",
       _handleDarkModeToggler.bind(themeToggler)
     );
+
     // submitButton.addEventListener("click", _formSubmission);
 
     //! Add event listener for touch screens
     // document.addEventListener("touchstart", _handleFocusIn);
     // document.addEventListener("touchend", _handleFocusOut); //> these are not working as expected, will need fixing
+  }
+
+  function _showTooltip(e) {
+    let tooltipText = e.target.getAttribute("data-tooltip");
+    if (tooltipText) {
+      let tooltip = document.createElement("div");
+      tooltip.textContent = tooltipText;
+      tooltip.className = `absolute bg-gray-600 text-white font-josefin p-2 text-lg rounded-md`;
+      e.target.appendChild(tooltip);
+    }
+  }
+
+  function _hideTooltip(e) {
+    let tooltipText = e.target.getAttribute("data-tooltip");
+    if (tooltipText) {
+      let tooltip = e.target.querySelector("div");
+      if (tooltip) {
+        e.target.removeChild(tooltip);
+      }
+    }
   }
 
   function _handleFocusIn(e) {

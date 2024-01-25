@@ -12,18 +12,20 @@ export function foodPage() {
             <h1 class="relative font-josefin text-5xl text-center my-6 md:col-span-2">Breakfast Menu</h1>
 
 
-            <div
-                class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2 opacity-70 hover:opacity-100">
+            <div class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2 ">
                 <h1 class="font-josefin text-3xl text-center my-4 col-span-2">Full Breakfast</h1>
 
                 <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Full Breakfast
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
+                    <div class="grid grid-cols-3 w-full ">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Full Breakfast
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">1 Local pork
@@ -37,15 +39,18 @@ export function foodPage() {
                                 tomato, baked
                                 beans and hash brown. With a choice of white toast, wholemeal toast or fried slice.</p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 55</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 55</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Full Steam Ahead
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Full Steam Ahead
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
@@ -54,19 +59,22 @@ export function foodPage() {
                                 wholemeal toast or fried slice.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 70</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 70</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Vegetarian Breakfast
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
-                                </div>
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl ">Vegetarian Breakfast
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
@@ -74,15 +82,18 @@ export function foodPage() {
                                 beans. With a choice of white toast, wholemeal toast or fried slice.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 50</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 50</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex  items-center">The Junior
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">The Junior
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
@@ -90,84 +101,92 @@ export function foodPage() {
                                 or wholemeal toast.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 40</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 40</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
                             <div class="text-lg lg:text-3xl flex">American Style Pancakes
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Served with syrup and fresh fruit.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 50</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 50</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
                             <div class="text-lg lg:text-3xl flex">Toasted Waffles
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                                Served with syrup and fresh fruit.
+                                Served with syrup and fresh fruit
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 50</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 50</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Breakfast Burger
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Breakfast Burger
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Floured bap filled with sausage, smoked bacon, fried egg and hash brown.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 65</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 65</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Veggie Breakfast Burger
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
-                                </div>
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Veggie Breakfast Burger
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Floured bap with veggie sausage, mushroom and spinach, fried egg and hash brown.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 55</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 55</span>
                     </div>
 
                 </div>
             </div>
 
-            <div
-                class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2  opacity-70 hover:opacity-100">
+            <div class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2  ">
                 <h1 class="font-josefin text-3xl text-center my-4 col-span-2">Light Breakfast</h1>
 
                 <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Scrambled eggs on toast
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
-                                </div>
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
+                    <div class="grid grid-cols-3 w-full mt-4">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl ">Scrambled eggs on toast
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
@@ -175,64 +194,76 @@ export function foodPage() {
                                 Add Smoaked Salmon -- RON 15
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 35</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 35</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Sqashed Avocado
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
-                                </div>
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Sqashed Avocado
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Served on either white or granary toast with poached eggs and grilled tomatoes.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 50</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 50</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Smokey Bacon Sandwich
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Smokey Bacon Sandwich
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 3 rashes of bacon on white or granary bread.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 45</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 45</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Sausage Sandwich
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Sausage Sandwich
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 2 pork sausages on white or granary bread.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 40</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 40</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Eggs Benedict
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Eggs Benedict
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
@@ -241,15 +272,18 @@ export function foodPage() {
                                 sauce.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 55</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 55</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Eggs Royal
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Eggs Royal
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
@@ -258,19 +292,22 @@ export function foodPage() {
                                 sauce.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 60</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 60</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Eggs Florentine
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
-                                </div>
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Eggs Florentine
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
@@ -278,45 +315,51 @@ export function foodPage() {
                                 sauce.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 55</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 55</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Beans on Toast
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
-                                </div>
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Beans on Toast
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Served with white or granary toast.
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 35</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 35</span>
                     </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-lg lg:text-3xl flex items-center">Mushrooms and spinach on toast
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
-                                </div>
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
+                    <div class="grid grid-cols-3 w-full">
+                        <div class="font-montserat col-span-2">
+                            <div class="text-lg lg:text-3xl">Mushrooms and spinach on toast
+                                <div class="flex m-2">
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs"
+                                            data-tooltip="Gluten Free Adaptable">GF</span>
+                                    </div>
+                                    <div
+                                        class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                                        <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                                    </div>
                                 </div>
                             </div>
                             <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
                                 Sauted seasoned mushrooms with spinach on a choice of white or granary toast
                             </p>
                         </div>
-                        <span class="text-lg lg:text-2xl m-4">RON 45</span>
+                        <span class="text-lg lg:text-2xl place-self-start mx-auto">RON 45</span>
                     </div>
 
                 </div>
@@ -326,21 +369,6 @@ export function foodPage() {
                 <h1 class="text-2xl p-4">Allergies / Dietary Requirements</h1>
                 <p class="font-nunito text-sm p-4">Please speak to server if you have any allergies and dietary
                     requirements. All dishes are prepated fresh so most can be adapted to meet your needs.</p>
-
-                <div class="flex m-4 items-center">
-                    <div
-                        class="bg-black rounded-full shadow-white shadow-md h-8 w-8 text-white flex justify-center items-center">
-                        <span class="text-sm">GF</span>
-                    </div>
-                    <p class="mx-4">Gluten Free Adaptable</p>
-                </div>
-                <div class="flex m-4 items-center">
-                    <div
-                        class="bg-black rounded-full shadow-white shadow-md h-8 w-8 text-white flex justify-center items-center">
-                        <span class="text-sm">V</span>
-                    </div>
-                    <p class="mx-4">Vegetarian</p>
-                </div>
             </div>
         </div>
     `;

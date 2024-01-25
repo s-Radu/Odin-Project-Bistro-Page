@@ -1,5 +1,3 @@
-//>  AIzaSyDJ37T_VXSj-P-fG-pQsTlmZwYQ9QaRYuQ
-
 import { Loader } from "@googlemaps/js-api-loader";
 
 const loader = new Loader({
