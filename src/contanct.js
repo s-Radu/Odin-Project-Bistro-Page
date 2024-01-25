@@ -54,22 +54,3 @@ export function contactPage() {
   `;
   return contactPage;
 }
-
-let map;
-// initMap is now async
-export async function initMap() {
-  // Request libraries when needed, not in the script tag.
-  const { Map } = await google.maps.importLibrary("maps");
-  // Short namespaces can be used.
-  map = new Map(document.getElementById("map"), {
-    center: { lat: 45.75755731887524, lng: 21.228189873342135 },
-    zoom: 13,
-  });
-  new google.maps.Marker({
-    position: { lat: 45.75755731887524, lng: 21.228189873342135 },
-    map,
-    label: "L",
-    title: "Lebăda neagră!",
-    animation: google.maps.Animation.DROP,
-  });
-}
