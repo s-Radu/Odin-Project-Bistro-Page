@@ -1024,6 +1024,10 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -1238,6 +1242,11 @@ video {
   align-self: start;
   justify-self: start;
   place-self: start;
+}
+.place-self-center {
+  align-self: center;
+  justify-self: center;
+  place-self: center;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -1854,6 +1863,11 @@ video {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+
+  .lg\\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1863,7 +1877,7 @@ video {
     margin-right: 9rem;
   }
 }
-`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["@import \"tailwindcss/base\";\n@import \"tailwindcss/components\";\n@import \"tailwindcss/utilities\";\n\n@font-face {\n  font-family: \"Nunito\";\n  src: url(\"./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Josefin Sans\";\n  src: url(\"./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  src: url(\"./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;;CAA0B,CAA1B;;;CAA0B;;AAA1B;;;EAAA,sBAA0B,EAA1B,MAA0B;EAA1B,eAA0B,EAA1B,MAA0B;EAA1B,mBAA0B,EAA1B,MAA0B;EAA1B,qBAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;EAAA,gBAA0B;AAAA;;AAA1B;;;;;;;;CAA0B;;AAA1B;;EAAA,gBAA0B,EAA1B,MAA0B;EAA1B,8BAA0B,EAA1B,MAA0B;EAA1B,gBAA0B,EAA1B,MAA0B;EAA1B,cAA0B;KAA1B,WAA0B,EAA1B,MAA0B;EAA1B,8LAA0B,EAA1B,MAA0B;EAA1B,6BAA0B,EAA1B,MAA0B;EAA1B,+BAA0B,EAA1B,MAA0B;EAA1B,wCAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;;CAA0B;;AAA1B;EAAA,SAA0B,EAA1B,MAA0B;EAA1B,oBAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;;;CAA0B;;AAA1B;EAAA,SAA0B,EAA1B,MAA0B;EAA1B,cAA0B,EAA1B,MAA0B;EAA1B,qBAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;EAAA,0BAA0B;EAA1B,yCAA0B;UAA1B,iCAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;;;;;;EAAA,kBAA0B;EAA1B,oBAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;EAAA,cAA0B;EAA1B,wBAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;;EAAA,mBAA0B;AAAA;;AAA1B;;;;;CAA0B;;AAA1B;;;;EAAA,+GAA0B,EAA1B,MAA0B;EAA1B,6BAA0B,EAA1B,MAA0B;EAA1B,+BAA0B,EAA1B,MAA0B;EAA1B,cAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;EAAA,cAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;;EAAA,cAA0B;EAA1B,cAA0B;EAA1B,kBAA0B;EAA1B,wBAA0B;AAAA;;AAA1B;EAAA,eAA0B;AAAA;;AAA1B;EAAA,WAA0B;AAAA;;AAA1B;;;;CAA0B;;AAA1B;EAAA,cAA0B,EAA1B,MAA0B;EAA1B,qBAA0B,EAA1B,MAA0B;EAA1B,yBAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;;;CAA0B;;AAA1B;;;;;EAAA,oBAA0B,EAA1B,MAA0B;EAA1B,8BAA0B,EAA1B,MAA0B;EAA1B,gCAA0B,EAA1B,MAA0B;EAA1B,eAA0B,EAA1B,MAA0B;EAA1B,oBAA0B,EAA1B,MAA0B;EAA1B,oBAA0B,EAA1B,MAA0B;EAA1B,cAA0B,EAA1B,MAA0B;EAA1B,SAA0B,EAA1B,MAA0B;EAA1B,UAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;;EAAA,oBAA0B;AAAA;;AAA1B;;;CAA0B;;AAA1B;;;;EAAA,0BAA0B,EAA1B,MAA0B;EAA1B,6BAA0B,EAA1B,MAA0B;EAA1B,sBAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;EAAA,aAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;EAAA,gBAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;EAAA,wBAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;;EAAA,YAA0B;AAAA;;AAA1B;;;CAA0B;;AAA1B;EAAA,6BAA0B,EAA1B,MAA0B;EAA1B,oBAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;EAAA,wBAA0B;AAAA;;AAA1B;;;CAA0B;;AAA1B;EAAA,0BAA0B,EAA1B,MAA0B;EAA1B,aAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;EAAA,kBAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;;;;;;;;;;;;;EAAA,SAA0B;AAAA;;AAA1B;EAAA,SAA0B;EAA1B,UAA0B;AAAA;;AAA1B;EAAA,UAA0B;AAAA;;AAA1B;;;EAAA,gBAA0B;EAA1B,SAA0B;EAA1B,UAA0B;AAAA;;AAA1B;;CAA0B;AAA1B;EAAA,UAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;EAAA,gBAA0B;AAAA;;AAA1B;;;CAA0B;;AAA1B;EAAA,UAA0B,EAA1B,MAA0B;EAA1B,cAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;EAAA,UAA0B,EAA1B,MAA0B;EAA1B,cAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;;EAAA,eAA0B;AAAA;;AAA1B;;CAA0B;AAA1B;EAAA,eAA0B;AAAA;;AAA1B;;;;CAA0B;;AAA1B;;;;;;;;EAAA,cAA0B,EAA1B,MAA0B;EAA1B,sBAA0B,EAA1B,MAA0B;AAAA;;AAA1B;;CAA0B;;AAA1B;;EAAA,eAA0B;EAA1B,YAA0B;AAAA;;AAA1B,wEAA0B;AAA1B;EAAA,aAA0B;AAAA;;AAA1B;EAAA,wBAA0B;EAA1B,wBAA0B;EAA1B,mBAA0B;EAA1B,mBAA0B;EAA1B,cAA0B;EAA1B,cAA0B;EAA1B,cAA0B;EAA1B,eAA0B;EAA1B,eAA0B;EAA1B,aAA0B;EAA1B,aAA0B;EAA1B,kBAA0B;EAA1B,sCAA0B;EAA1B,8BAA0B;EAA1B,6BAA0B;EAA1B,4BAA0B;EAA1B,eAA0B;EAA1B,oBAA0B;EAA1B,sBAA0B;EAA1B,uBAA0B;EAA1B,wBAA0B;EAA1B,kBAA0B;EAA1B,2BAA0B;EAA1B,4BAA0B;EAA1B,wCAA0B;EAA1B,0CAA0B;EAA1B,mCAA0B;EAA1B,8BAA0B;EAA1B,sCAA0B;EAA1B,YAA0B;EAA1B,kBAA0B;EAA1B,gBAA0B;EAA1B,iBAA0B;EAA1B,kBAA0B;EAA1B,cAA0B;EAA1B,gBAA0B;EAA1B,aAA0B;EAA1B,mBAA0B;EAA1B,qBAA0B;EAA1B,2BAA0B;EAA1B,yBAA0B;EAA1B,0BAA0B;EAA1B,2BAA0B;EAA1B,uBAA0B;EAA1B,wBAA0B;EAA1B,yBAA0B;EAA1B;AAA0B;;AAA1B;EAAA,wBAA0B;EAA1B,wBAA0B;EAA1B,mBAA0B;EAA1B,mBAA0B;EAA1B,cAA0B;EAA1B,cAA0B;EAA1B,cAA0B;EAA1B,eAA0B;EAA1B,eAA0B;EAA1B,aAA0B;EAA1B,aAA0B;EAA1B,kBAA0B;EAA1B,sCAA0B;EAA1B,8BAA0B;EAA1B,6BAA0B;EAA1B,4BAA0B;EAA1B,eAA0B;EAA1B,oBAA0B;EAA1B,sBAA0B;EAA1B,uBAA0B;EAA1B,wBAA0B;EAA1B,kBAA0B;EAA1B,2BAA0B;EAA1B,4BAA0B;EAA1B,wCAA0B;EAA1B,0CAA0B;EAA1B,mCAA0B;EAA1B,8BAA0B;EAA1B,sCAA0B;EAA1B,YAA0B;EAA1B,kBAA0B;EAA1B,gBAA0B;EAA1B,iBAA0B;EAA1B,kBAA0B;EAA1B,cAA0B;EAA1B,gBAA0B;EAA1B,aAA0B;EAA1B,mBAA0B;EAA1B,qBAA0B;EAA1B,2BAA0B;EAA1B,yBAA0B;EAA1B,0BAA0B;EAA1B,2BAA0B;EAA1B,uBAA0B;EAA1B,wBAA0B;EAA1B,yBAA0B;EAA1B;AAA0B;AAC1B;EAAA;AAAgC;AAAhC;;EAAA;IAAA;EAAgC;AAAA;AAAhC;;EAAA;IAAA;EAAgC;AAAA;AAAhC;;EAAA;IAAA;EAAgC;AAAA;AAAhC;;EAAA;IAAA;EAAgC;AAAA;AAAhC;;EAAA;IAAA;EAAgC;AAAA;AAChC;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,QAA+B;EAA/B,UAA+B;EAA/B,WAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,mBAA+B;EAA/B;AAA+B;AAA/B;EAAA,iBAA+B;EAA/B;AAA+B;AAA/B;EAAA,iBAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B;AAA+B;AAA/B;EAAA,gBAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,0BAA+B;EAA/B,kLAA+B;EAA/B;AAA+B;AAA/B;EAAA,0BAA+B;EAA/B,kLAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;;EAAA;IAAA,2BAA+B;IAA/B;EAA+B;;EAA/B;IAAA,eAA+B;IAA/B;EAA+B;AAAA;AAA/B;EAAA;AAA+B;AAA/B;;EAAA;IAAA;EAA+B;;EAA/B;IAAA;EAA+B;AAAA;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,qBAA+B;EAA/B,uBAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,uBAA+B;EAA/B,gCAA+B;EAA/B,wDAA+B;EAA/B,oCAA+B;EAA/B,4DAA+B;EAA/B,6BAA+B;EAA/B;AAA+B;AAA/B;EAAA,iBAA+B;EAA/B,mBAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B,oBAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,sBAA+B;EAA/B,8BAA+B;EAA/B;AAA+B;AAA/B;EAAA,sBAA+B;EAA/B,oCAA+B;EAA/B;AAA+B;AAA/B;EAAA,sBAA+B;EAA/B,oCAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B,kCAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B,sCAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B,wCAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B,wCAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B,qCAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B,qCAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B,wCAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B;AAA+B;AAA/B;EAAA,qBAA+B;EAA/B;AAA+B;AAA/B;EAAA,mBAA+B;EAA/B;AAA+B;AAA/B;EAAA,oBAA+B;EAA/B;AAA+B;AAA/B;EAAA,iBAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,iBAA+B;EAA/B;AAA+B;AAA/B;EAAA,mBAA+B;EAA/B;AAA+B;AAA/B;EAAA,eAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B;AAA+B;AAA/B;EAAA,eAA+B;EAA/B;AAA+B;AAA/B;EAAA,mBAA+B;EAA/B;AAA+B;AAA/B;EAAA,mBAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B;AAA+B;AAA/B;EAAA,kBAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,oBAA+B;EAA/B,uBAA+B;EAA/B;AAA+B;AAA/B;EAAA,oBAA+B;EAA/B,6BAA+B;EAA/B;AAA+B;AAA/B;EAAA,oBAA+B;EAA/B,0BAA+B;EAA/B;AAA+B;AAA/B;EAAA,oBAA+B;EAA/B,0BAA+B;EAA/B;AAA+B;AAA/B;EAAA,oBAA+B;EAA/B,6BAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,iFAA+B;EAA/B,iGAA+B;EAA/B,sHAA+B;EAA/B;AAA+B;AAA/B;EAAA,4CAA+B;EAA/B,uDAA+B;EAA/B,iFAA+B;EAA/B;AAA+B;AAA/B;EAAA,oFAA+B;EAA/B,oGAA+B;EAA/B,yHAA+B;EAA/B;AAA+B;AAA/B;EAAA,uBAA+B;EAA/B;AAA+B;AAA/B;EAAA,2GAA+B;EAA/B,yGAA+B;EAA/B,0MAA+B;EAA/B;AAA+B;AAA/B;EAAA,oBAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,sGAA+B;EAA/B,gPAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA,gKAA+B;EAA/B,wJAA+B;EAA/B,iLAA+B;EAA/B,wDAA+B;EAA/B;AAA+B;AAA/B;EAAA,wBAA+B;EAA/B,wDAA+B;EAA/B;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;AAA/B;EAAA;AAA+B;;AAE/B;EACE,qBAAqB;EACrB;sBACoB;EACpB,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,2BAA2B;EAC3B;sBACoB;EACpB,mBAAmB;EACnB,kBAAkB;AACpB;;AAEA;EACE,yBAAyB;EACzB;sBACoB;EACpB,mBAAmB;EACnB,kBAAkB;AACpB;;AA1BA;EAAA,iBA2BA;EA3BA,iBA2BA;EA3BA,mKA2BA;EA3BA;AA2BA;;AA3BA;EAAA;AA2BA;;AA3BA;EAAA;AA2BA;;AA3BA;EAAA,kBA2BA;EA3BA,sCA2BA;EA3BA;AA2BA;;AA3BA;EAAA;AA2BA;;AA3BA;EAAA,oBA2BA;EA3BA,uBA2BA;EA3BA;AA2BA;;AA3BA;EAAA,oBA2BA;EA3BA,6BA2BA;EA3BA;AA2BA;;AA3BA;EAAA;AA2BA;;AA3BA;EAAA,2GA2BA;EA3BA,yGA2BA;EA3BA,0MA2BA;EA3BA;AA2BA;;AA3BA;EAAA,8BA2BA;EA3BA;AA2BA;;AA3BA;EAAA,2GA2BA;EA3BA,yGA2BA;EA3BA,0MA2BA;EA3BA;AA2BA;;AA3BA;EAAA,yBA2BA;EA3BA,iLA2BA;EA3BA;AA2BA;;AA3BA;EAAA,wBA2BA;EA3BA,gLA2BA;EA3BA;AA2BA;;AA3BA;EAAA,2GA2BA;EA3BA,yGA2BA;EA3BA,0MA2BA;EA3BA;AA2BA;;AA3BA;EAAA,sBA2BA;EA3BA,iCA2BA;EA3BA;AA2BA;;AA3BA;EAAA,sBA2BA;EA3BA,oCA2BA;EA3BA;AA2BA;;AA3BA;EAAA,kBA2BA;EA3BA,qCA2BA;EA3BA;AA2BA;;AA3BA;EAAA,kBA2BA;EA3BA,qCA2BA;EA3BA;AA2BA;;AA3BA;EAAA,kBA2BA;EA3BA,qCA2BA;EA3BA;AA2BA;;AA3BA;EAAA,kBA2BA;EA3BA,wCA2BA;EA3BA;AA2BA;;AA3BA;EAAA,oBA2BA;EA3BA,6BA2BA;EA3BA;AA2BA;;AA3BA;EAAA,oBA2BA;EA3BA,6BA2BA;EA3BA;AA2BA;;AA3BA;EAAA,oBA2BA;EA3BA,6BA2BA;EA3BA;AA2BA;;AA3BA;EAAA,oBA2BA;EA3BA,6BA2BA;EA3BA;AA2BA;;AA3BA;EAAA,2BA2BA;EA3BA,6BA2BA;EA3BA;AA2BA;;AA3BA;EAAA,2BA2BA;EA3BA,6BA2BA;EA3BA;AA2BA;;AA3BA;EAAA;AA2BA;;AA3BA;EAAA;AA2BA;;AA3BA;EAAA,oBA2BA;EA3BA,6BA2BA;EA3BA;AA2BA;;AA3BA;;EAAA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA,uBA2BA;IA3BA;EA2BA;AAAA;;AA3BA;;EAAA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA,mBA2BA;IA3BA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA,sBA2BA;IA3BA,oCA2BA;IA3BA;EA2BA;;EA3BA;IAAA,oBA2BA;IA3BA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA,iBA2BA;IA3BA;EA2BA;;EA3BA;IAAA,kBA2BA;IA3BA;EA2BA;AAAA;;AA3BA;;EAAA;IAAA,iBA2BA;IA3BA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA;EA2BA;;EA3BA;IAAA,iBA2BA;IA3BA;EA2BA;;EA3BA;IAAA,iBA2BA;IA3BA;EA2BA;;EA3BA;IAAA,mBA2BA;IA3BA;EA2BA;;EA3BA;IAAA,kBA2BA;IA3BA;EA2BA;AAAA;;AA3BA;;EAAA;IAAA,iBA2BA;IA3BA;EA2BA;AAAA","sourcesContent":["@import \"tailwindcss/base\";\n@import \"tailwindcss/components\";\n@import \"tailwindcss/utilities\";\n\n@font-face {\n  font-family: \"Nunito\";\n  src: url(\"./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Josefin Sans\";\n  src: url(\"./assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n@font-face {\n  font-family: \"Montserrat\";\n  src: url(\"./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf\")\n    format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2436,143 +2450,161 @@ function dessertPage() {
   dessertPage.id = "dessertPage";
   dessertPage.style.backgroundImage = `url(${_assets_images_dessert_jpg__WEBPACK_IMPORTED_MODULE_0__})`;
   dessertPage.innerHTML = `
-            <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
+  <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
 
-            <h1 class="relative font-josefin text-5xl text-center my-4 ">Desserts</h1>
+  <h1 class="relative font-josefin text-5xl text-center my-4 ">Desserts</h1>
 
-            <div
-                class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2 opacity-70 col-span-3 md:mx-10  hover:opacity-100">
+  <div
+      class="relative flex flex-col mx-4 items-center m-2  col-span-3 md:mx-10">
 
-                <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
+      <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-xl md:text-4xl flex items-center">Sticky Toffee Pudding
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
-                                </div>
-                            </div>
-                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                                With vanilla ice cream.
-                            </p>
-                        </div>
-                        <span class="text-xl md:text-2xl m-4">RON 45</span>
-                    </div>
+          <div class="flex justify-between items-center w-full">
+              <div class="font-montserat">
+                  <div class="text-xl md:text-4xl">Sticky Toffee Pudding
+                      <div class="flex m-2">
+                          <div
+                              class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                              <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                      With vanilla ice cream.
+                  </p>
+              </div>
+              <span class="text-xl md:text-2xl m-4">RON 45</span>
+          </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-xl md:text-4xl flex items-center">Pot au chocolat
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
-                                </div>
-                            </div>
-                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                                Rich chocolate mousse with raspberry coulis layer, fresh raspberries and a sable
-                                biscuit.
-                            </p>
-                        </div>
-                        <span class="text-xl md:text-2xl m-4">RON 40</span>
-                    </div>
+          <div class="flex justify-between items-center w-full">
+              <div class="font-montserat">
+                  <div class="text-xl md:text-4xl">Pot au chocolat
+                      <div class="flex m-2">
+                          <div
+                              class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                              <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                      Rich chocolate mousse with raspberry coulis layer, fresh raspberries and a sable
+                      biscuit.
+                  </p>
+              </div>
+              <span class="text-xl md:text-2xl m-4">RON 40</span>
+          </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-xl md:text-4xl flex items-center">Creme brulee
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
-                                </div>
-                            </div>
-                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                                French classic. Vanilla creme brulee freshly made by our chefs every day.
-                            </p>
-                        </div>
-                        <span class="text-xl md:text-2xl m-4">RON 50</span>
-                    </div>
+          <div class="flex justify-between items-center w-full">
+              <div class="font-montserat">
+                  <div class="text-xl md:textcenter">Creme brulee
+                      <div class="flex m-2">
+                          <div
+                              class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                              <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                      French classic. Vanilla creme brulee freshly made by our chefs every day.
+                  </p>
+              </div>
+              <span class="text-xl md:text-2xl m-4">RON 50</span>
+          </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-xl md:text-4xl flex items-center">Champagne sorbet
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
-                                </div>
-                            </div>
-                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                                Champagne sorbet with fresh raspberries and a shot of Champagne
-                            </p>
-                        </div>
-                        <span class="text-xl md:text-2xl m-4">RON 55</span>
-                    </div>
+          <div class="flex justify-between items-center w-full">
+              <div class="font-montserat">
+                  <div class="text-xl md:textcenter">Champagne sorbet
+                      <div class="flex m-2">
+                          <div
+                              class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                              <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                      Champagne sorbet with fresh raspberries and a shot of Champagne
+                  </p>
+              </div>
+              <span class="text-xl md:text-2xl m-4">RON 55</span>
+          </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-xl md:text-4xl flex items-center">Praline & Chocolate bombe
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
-                                </div>
-                            </div>
-                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                                iced praline cream with amaretti biscuit in a chocolate shell, with warm chocolate
-                                sauce.
-                            </p>
-                        </div>
-                        <span class="text-xl md:text-2xl m-4">RON 55</span>
-                    </div>
+          <div class="flex justify-between items-center w-full">
+              <div class="font-montserat">
+                  <div class="text-xl md:text-4xl">Praline & Chocolate bombe
+                      <div class=" flex m-2">
+                          <div
+                              class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                              <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                      iced praline cream with amaretti biscuit in a chocolate shell, with warm chocolate
+                      sauce.
+                  </p>
+              </div>
+              <span class="text-xl md:text-2xl m-4">RON 55</span>
+          </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-xl md:text-4xl flex items-center">Tarte au citron
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
-                                </div>
-                            </div>
-                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                                With raspberry coulis and creme Chantilly.
-                            </p>
-                        </div>
-                        <span class="text-xl md:text-2xl m-4">RON 50</span>
-                    </div>
+          <div class="flex justify-between items-center w-full">
+              <div class="font-montserat">
+                  <div class="text-xl md:text-4xl">Tarte au citron
+                      <div class="flex m-2">
+                          <div
+                              class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                              <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                      With raspberry coulis and creme Chantilly.
+                  </p>
+              </div>
+              <span class="text-xl md:text-2xl m-4">RON 50</span>
+          </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-xl md:text-4xl flex items-center">Organic ice cream & sorbet
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
-                                </div>
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">GF</span>
-                                </div>
-                            </div>
-                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                                Please ask for flavours
-                            </p>
-                        </div>
-                        <span class="text-xl md:text-2xl m-4">RON 35</span>
-                    </div>
+          <div class="flex justify-between items-center w-full">
+              <div class="font-montserat">
+                  <div class="text-xl md:text-4xl">Organic ice cream & sorbet
+                      <div class="flex m-2">
+                          <div
+                              class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                              <span class="relative cursor-pointer text-xs"
+                                  data-tooltip="Gluten Free Adaptable">GF</span>
+                          </div>
+                          <div
+                              class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                              <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                      Please ask for flavours
+                  </p>
+              </div>
+              <span class="text-xl md:text-2xl m-4">RON 35</span>
+          </div>
 
-                    <div class="flex justify-between items-center w-full">
-                        <div class="font-montserat">
-                            <div class="text-xl md:text-4xl flex items-center">Chocolate brownie
-                                <div
-                                    class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
-                                    <span class="text-xs">V</span>
-                                </div>
-                            </div>
-                            <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                                With warm chocolate sauce and salted caramel ice cream.
-                            </p>
-                        </div>
-                        <span class="text-xl md:text-2xl m-4">RON 50</span>
-                    </div>
+          <div class="flex justify-between items-center w-full">
+              <div class="font-montserat">
+                  <div class="text-xl md:text-4xl">Chocolate brownie
+                      <div class="flex m-2">
+                          <div
+                              class="bg-black rounded-full shadow-white shadow-md mx-2 h-4 w-4 text-white flex justify-center items-center">
+                              <span class="relative cursor-pointer text-xs" data-tooltip="Vegetarian">V</span>
+                          </div>
+                      </div>
+                  </div>
+                  <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                      With warm chocolate sauce and salted caramel ice cream.
+                  </p>
+              </div>
+              <span class="text-xl md:text-2xl m-4">RON 50</span>
+          </div>
 
-                </div>
-            </div>
+      </div>
+  </div>
+
   `;
 
   return dessertPage;
@@ -2601,620 +2633,628 @@ function drinksPage() {
   drinksPage.id = "drinksPage";
   drinksPage.style.backgroundImage = `url(${_assets_images_drinks_jpg__WEBPACK_IMPORTED_MODULE_0__})`;
   drinksPage.innerHTML = `
-    <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
-
-    <h1 class="relative font-josefin text-6xl text-center my-4 col-span-2">Drinks</h1>
-
-    <div
-        class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-4 opacity-70 col-span-3 md:mx-10  hover:opacity-100">
-
-        <div class="grid grid-cols-1 md:grid-cols-2 justify-between items-center min-h-[91rem] w-full">
-
-            <div class="m-6">
-                <h1 class="relative font-josefin text-5xl text-center my-4 ">Coffee</h1>
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Espresso
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 10</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Double Espresso
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 13</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Cappuccino
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 15</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Flat White
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 15</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Americano
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 14</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Mocha
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 15</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Latte
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 15</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Hot Chocolate
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 10</span>
-                </div>
-            </div>
-
-            <div class="m-6">
-                <h1 class="relative font-josefin text-5xl text-center my-4  ">Soft Drinks</h1>
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Fresh Orange
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 15</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Fresh Pineapple
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 15</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Fresh Apple
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 15</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Fresh Carrot
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 15</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Cans of Soft Drinks
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 5</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Draft Soft Drink
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-            </div>
-
-            <div class="m-6">
-                <h1 class="relative font-josefin text-5xl text-center my-4  ">Vodka</h1>
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Smirnoff Red label
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Ciroc
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 5</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Russian Standard
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 6</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Absolute citrus, raspberry or vanilla
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Grey Goose
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 5</span>
-                </div>
-            </div>
-
-            <div class="m-6">
-                <h1 class="relative font-josefin text-5xl text-center my-4  ">Gin</h1>
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Gordons Original, Lemon, Orange or Pink
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 6</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Beefeater
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 5</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Bombay Sapphire
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 6</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Hendricks
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Boe Violet Gin
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 5</span>
-                </div>
-
-            </div>
-
-            <div class="m-6">
-                <h1 class="relative font-josefin text-5xl text-center my-4  ">Rum</h1>
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Bacardi
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Malibu
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Havana
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Morgan's Spiced Rum
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Kraken
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-            </div>
-
-            <div class="m-6">
-                <h1 class="relative font-josefin text-5xl text-center my-4  ">Wiskey, Bourbon & Malt</h1>
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Famous Grouse
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Jack Daniel's
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Canadian Club
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Gentleman Jack
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Johnny Walker Black Label
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Jameson Irish Whiskey
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Glen Moray Spey Side Single Malt
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Highland Park 12 years old
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Glenmorangie Single malt
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Macallan 12-year-old
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-            </div>
-
-            <div class="m-6">
-                <h1 class="relative font-josefin text-5xl text-center my-4  ">Cocktails</h1>
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Cosmo
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Vodka, Cointreau and Lemonade shaken over ice,
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 17</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Sex on The Beach
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Vodka,, Orange Juice Peach Schnapps, Cranberry Juice blended over
-                            crushed ice with a touch of Grenadine
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 17</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Tequila Sunrise
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Tequila, orange juice, grenadine, orange slice
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 17</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">French Martini
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Smirnoff Vodka, Chambord, fresh pineapple juice, shaken over ice and
-                            served with fresh raspberries.
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 17</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Cosmo
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Vodka, Cointreau and Lemonade shaken over ice,
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 17</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Espresso Martini
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Smirnoff vodka, kahlua , one shot espresso , topped with coffee beans
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 18</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Classic Mojito
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            White rum, fresh mint, lime, topped with soda . Also available in
-                            strawberry
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 18</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Strawberry or Mango Daiquiri
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Fresh Strawberries or Mango blended with Bacardi, Peach Schnapps,
-                            lime juice topped with lemonade
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 18</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Blue Lagoon
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Blue curacao, vodka, lemonade, served with orange slice
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 18</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Berry Bakewell
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Smirnoff vodka, disaronno, strawberry puree, cranberry topped with
-                            whipped cream and a strawberry
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 18</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Pornstar Martini
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Absolute vanilla vodka, passoa , pineapple juice , passionfruit puree ,
-                            topped with fresh passionfruit , served with a shot of prosecco
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 18</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Purple Rain
-                        </p>
-                        <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
-                            Premium FRIS vodka, blue curacao orange and raspberry liqueurs, mixed with our
-                            homemade
-                            cloudy lemonade and a splash of grenadine
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 20</span>
-                </div>
-            </div>
-
-            <div class="m-6">
-                <h1 class="relative font-josefin text-5xl text-center my-4  ">Wine</h1>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">House White
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 5</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">House Rose
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 5</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">House Red
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 5</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">La Pintora Sauvigon
-                            Blanc
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Previata Pinot Grigio
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Chardonnay
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 7</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Pinot Grigio Rose
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 6</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Wild River White
-                            Zinfandel
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 6</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">La Pintora Merlot
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 6</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Scenic Ridge Shiraz
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 6</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Los Picos Malbec
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 6</span>
-                </div>
-            </div>
-
-            <div class="m-6">
-                <h1 class="relative font-josefin text-5xl text-center my-4  ">Beers</h1>
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">John Smiths
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 4</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Budweiser
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 4</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Corona
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 4</span>
-                </div>
-
-                <div class="flex justify-between items-center w-full">
-                    <div class="font-montserat">
-                        <p class="text-xl md:text-4xl flex items-center">Birra Moretti
-                        </p>
-                    </div>
-                    <span class="text-xl md:text-2xl m-4">RON 4</span>
-                </div>
-            </div>
-
-        </div>
-    </div>
+  <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
+
+  <h1 class="relative font-josefin text-6xl text-center my-4 col-span-2">Drinks</h1>
+
+  <div class="relative flex flex-col mx-4 items-center m-4 col-span-3 md:mx-10">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 justify-between items-center min-h-[91rem] w-full">
+
+
+          <div class="flex justify-between flex-col h-full">
+              <div class="m-6">
+                  <h1 class="relative font-josefin text-5xl text-center my-4 text-gray-400 ">Coffee</h1>
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Espresso
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 10</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Double Espresso
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 13</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Cappuccino
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 15</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Flat White
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 15</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Americano
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 14</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Mocha
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 15</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Latte
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 15</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Hot Chocolate
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 10</span>
+                  </div>
+              </div>
+
+              <div class="m-6">
+                  <h1 class="relative font-josefin text-5xl text-center my-4 text-gray-400  ">Soft Drinks</h1>
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Fresh Orange
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 15</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Fresh Pineapple
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 15</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Fresh Apple
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 15</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Fresh Carrot
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON 15</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Cans of Soft Drinks
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp5</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Draft Soft Drink
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+                  </div>
+              </div>
+
+              <div class="m-6">
+                  <h1 class="relative font-josefin text-5xl text-center my-4 text-gray-400  ">Wine</h1>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">House White
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 5</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">House Rose
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp5</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">House Red
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 5</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">La Pintora Sauvigon
+                              Blanc
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 7</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Previata Pinot Grigio
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 7</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Chardonnay
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 7</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Pinot Grigio Rose
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 6</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Wild River White
+                              Zinfandel
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 6</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">La Pintora Merlot
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 6</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Scenic Ridge Shiraz
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 6</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Los Picos Malbec
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 6</span>
+                  </div>
+              </div>
+
+              <div class="m-6">
+                  <h1 class="relative font-josefin text-5xl text-center my-4 text-gray-400  ">Gin</h1>
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Gordons Original, Lemon, Orange or
+                              Pink
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp6</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Beefeater
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 5</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Bombay Sapphire
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 6</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Hendricks
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 7</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Boe Violet Gin
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp 5</span>
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="m-6 flex justify-between flex-col h-full">
+              <h1 class="relative font-josefin text-5xl text-center my-4 text-gray-400  ">Cocktails</h1>
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Cosmo
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Vodka, Cointreau and Lemonade shaken over ice,
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 17</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Sex on The Beach
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Vodka,, Orange Juice Peach Schnapps, Cranberry Juice blended over
+                          crushed ice with a touch of Grenadine
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 17</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Tequila Sunrise
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Tequila, orange juice, grenadine, orange slice
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 17</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">French Martini
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Smirnoff Vodka, Chambord, fresh pineapple juice, shaken over ice and
+                          served with fresh raspberries.
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 17</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Cosmo
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Vodka, Cointreau and Lemonade shaken over ice,
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 17</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Espresso Martini
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Smirnoff vodka, kahlua , one shot espresso , topped with coffee beans
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 18</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Classic Mojito
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          White rum, fresh mint, lime, topped with soda . Also available in
+                          strawberry
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 18</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Strawberry or Mango Daiquiri
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Fresh Strawberries or Mango blended with Bacardi, Peach Schnapps,
+                          lime juice topped with lemonade
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 18</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Blue Lagoon
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Blue curacao, vodka, lemonade, served with orange slice
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 18</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Berry Bakewell
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Smirnoff vodka, disaronno, strawberry puree, cranberry topped with
+                          whipped cream and a strawberry
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 18</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Pornstar Martini
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Absolute vanilla vodka, passoa , pineapple juice , passionfruit puree ,
+                          topped with fresh passionfruit , served with a shot of prosecco
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 18</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Purple Rain
+                      </p>
+                      <p class="w-2/4 ml-4 mt-4 text-sm font-nunito mb-4 pb-2 border-b-2 indent-2">
+                          Premium FRIS vodka, blue curacao orange and raspberry liqueurs, mixed with our
+                          homemade
+                          cloudy lemonade and a splash of grenadine
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON 20</span>
+              </div>
+          </div>
+
+          <div class="m-6 flex justify-between flex-col h-full">
+              <h1 class="relative font-josefin text-5xl text-center my-4 text-gray-400 ">Wiskey, Bourbon &
+                  Malt
+              </h1>
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Famous Grouse
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Jack Daniel's
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Canadian Club
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Gentleman Jack
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Johnny Walker Black Label
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Jameson Irish Whiskey
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Glen Moray Spey Side Single Malt
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Highland Park 12 years old
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Glenmorangie Single malt
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+              </div>
+
+              <div class="grid grid-cols-3 w-full my-2">
+                  <div class="font-montserat col-span-2">
+                      <p class="text-xl lg:text-4xl m-2">Macallan 12-year-old
+                      </p>
+                  </div>
+                  <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+              </div>
+          </div>
+
+          <div>
+              <div class="m-6">
+                  <h1 class="relative font-josefin text-5xl text-center my-4 text-gray-400  ">Beers</h1>
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">John Smiths
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp4</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Budweiser
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp4</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Corona
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp4</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Birra Moretti
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp4</span>
+                  </div>
+              </div>
+
+              <div class="m-6">
+                  <h1 class="relative font-josefin text-5xl text-center my-4 text-gray-400  ">Rum</h1>
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Bacardi
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Malibu
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Havana
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Morgan's Spiced Rum
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Kraken
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+                  </div>
+              </div>
+
+              <div class="m-6">
+                  <h1 class="relative font-josefin text-5xl text-center my-4 text-gray-400  ">Vodka</h1>
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Smirnoff Red label
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Ciroc
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp5</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Russian Standard
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp6</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Absolute citrus, raspberry or
+                              vanilla
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp7</span>
+                  </div>
+
+                  <div class="grid grid-cols-3 w-full my-2">
+                      <div class="font-montserat col-span-2">
+                          <p class="text-xl lg:text-4xl m-2">Grey Goose
+                          </p>
+                      </div>
+                      <span class="text-xl md:text-2xl place-self-center">RON &nbsp&nbsp5</span>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
     `;
 
   return drinksPage;
@@ -3248,8 +3288,8 @@ function foodPage() {
             <h1 class="relative font-josefin text-5xl text-center my-6 md:col-span-2">Breakfast Menu</h1>
 
 
-            <div class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2 ">
-                <h1 class="font-josefin text-3xl text-center my-4 col-span-2">Full Breakfast</h1>
+            <div class="relative flex flex-col mx-4 items-center m-2 ">
+                <h1 class="font-josefin text-3xl text-center my-4 col-span-2 text-gray-400">Full Breakfast</h1>
 
                 <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
 
@@ -3406,7 +3446,7 @@ function foodPage() {
             </div>
 
             <div class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2  ">
-                <h1 class="font-josefin text-3xl text-center my-4 col-span-2">Light Breakfast</h1>
+                <h1 class="font-josefin text-3xl text-center my-4 col-span-2 text-gray-400">Light Breakfast</h1>
 
                 <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
 
@@ -3910,7 +3950,7 @@ module.exports = __webpack_require__.p + "61b71ee93d55d9bddead.ttf";
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/443296d2936b1093834c.jpg";
+module.exports = __webpack_require__.p + "images/1a567db583bfc8ea1393.jpg";
 
 /***/ }),
 
@@ -3920,7 +3960,7 @@ module.exports = __webpack_require__.p + "images/443296d2936b1093834c.jpg";
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/347da4f920b01ee42b04.jpg";
+module.exports = __webpack_require__.p + "images/09b7e057396346954ccc.jpg";
 
 /***/ }),
 
@@ -3930,7 +3970,7 @@ module.exports = __webpack_require__.p + "images/347da4f920b01ee42b04.jpg";
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/52679553b245bb408118.jpg";
+module.exports = __webpack_require__.p + "images/b441d6fa34a2bc4fef11.jpg";
 
 /***/ }),
 
@@ -3940,7 +3980,7 @@ module.exports = __webpack_require__.p + "images/52679553b245bb408118.jpg";
   \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/130470b0af3dbfb060c4.jpg";
+module.exports = __webpack_require__.p + "images/e4af876aeba6ed4d94a9.jpg";
 
 /***/ }),
 
@@ -3950,7 +3990,7 @@ module.exports = __webpack_require__.p + "images/130470b0af3dbfb060c4.jpg";
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/5fce6fe46a6e4cadecf5.jpg";
+module.exports = __webpack_require__.p + "images/a18377be730a0f7230d7.jpg";
 
 /***/ }),
 
@@ -3960,7 +4000,7 @@ module.exports = __webpack_require__.p + "images/5fce6fe46a6e4cadecf5.jpg";
   \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/2abf6943a02ead9bb54a.png";
+module.exports = __webpack_require__.p + "images/0cbe1018bbc7ffeeefd6.png";
 
 /***/ })
 

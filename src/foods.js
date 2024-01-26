@@ -12,8 +12,8 @@ export function foodPage() {
             <h1 class="relative font-josefin text-5xl text-center my-6 md:col-span-2">Breakfast Menu</h1>
 
 
-            <div class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2 ">
-                <h1 class="font-josefin text-3xl text-center my-4 col-span-2">Full Breakfast</h1>
+            <div class="relative flex flex-col mx-4 items-center m-2 ">
+                <h1 class="font-josefin text-3xl text-center my-4 col-span-2 text-gray-400">Full Breakfast</h1>
 
                 <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
 
@@ -170,7 +170,7 @@ export function foodPage() {
             </div>
 
             <div class="relative transform transition-all duration-150 flex flex-col mx-4 items-center m-2  ">
-                <h1 class="font-josefin text-3xl text-center my-4 col-span-2">Light Breakfast</h1>
+                <h1 class="font-josefin text-3xl text-center my-4 col-span-2 text-gray-400">Light Breakfast</h1>
 
                 <div class="flex flex-col justify-between items-center min-h-[91rem] w-full">
 
