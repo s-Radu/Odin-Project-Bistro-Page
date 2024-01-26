@@ -152,16 +152,27 @@ const bistroPage = (function () {
       classList.contains("drinks") ||
       classList.contains("contact")
     ) {
+      //> array to select all pages
       let pages = ["home", "food", "dessert", "drinks", "contact"];
+      //> array is transformed into a string of selectors for querySelectorAll
       let pagesSelectors = pages.map((page) => `#${page}`).join(", ");
+      //> select all pages
       let pagesElements = content.querySelectorAll(pagesSelectors);
+      //> Adds hidden to all pages
+      //? Should add a fade out animation
       pagesElements.forEach((page) => {
         page.classList.add("hidden");
+        page.classList.remove("animate-fadeIn");
+        page.classList.add("animate-fadeOut");
       });
+      //> Selects the page that we clicked on, by using the last class from the classList
       let pageToShow = content.querySelector(
         `#${Array.from(e.target.classList).pop()}`
       );
+      //> Removes hidden from the page we want to show
       pageToShow.classList.remove("hidden");
+      pageToShow.classList.remove("animate-fadeOut");
+      pageToShow.classList.add("animate-fadeIn");
     }
   }
 
