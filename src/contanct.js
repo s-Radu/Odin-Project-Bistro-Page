@@ -3,15 +3,15 @@ import contactBackground from "./assets/images/contact.jpg";
 export function contactPage() {
   let contactPage = document.createElement("div");
   contactPage.className =
-    "relative bg-cover bg-no-repeat bg-center rounded-2xl m-4 container mx-auto grid grid-cols-1 lg:grid-cols-2 place-content-center text-white";
-  contactPage.id = "contactPage";
+    "relative bg-cover bg-no-repeat bg-center rounded-2xl m-4 container mx-auto grid grid-cols-1 lg:grid-cols-2 place-content-center text-white hidden";
+  contactPage.id = "contact";
   contactPage.style.backgroundImage = `url(${contactBackground})`;
   contactPage.innerHTML = `
   <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
 
-            <h1 class="relative font-josefin text-5xl text-center m-10 md:col-span-2">Contact us</h1>
+            <h1 class="relative font-josefin text-6xl text-center m-10 md:col-span-2">Contact us</h1>
 
-            <div class="relative flex flex-col mx-4 items-center m-4 opacity-70 md:mx-10 hover:opacity-100">
+            <div class="relative flex flex-col items-center  md:mx-10 ">
 
                 <section class="bg-gray-900 rounded-2xl w-full font-josefin">
                     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -48,7 +48,7 @@ export function contactPage() {
                 </section>
             </div>
 
-            <div class="relative flex flex-col mx-4 items-center m-4 opacity-70 md:mx-10 hover:opacity-100 rounded-2xl"
+            <div class="relative mx-4 items-center m-4 md:mx-10 rounded-2xl"
                 id="map">
             </div>
   `;

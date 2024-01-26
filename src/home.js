@@ -5,6 +5,7 @@ export function homePage() {
   homePage.className =
     "relative container mx-auto my-4 bg-cover bg-no-repeat bg-center rounded-2xl h-[60rem] md:h-[45rem]";
   homePage.style.backgroundImage = `url(${homePageBackground})`;
+  homePage.id = "home";
   homePage.innerHTML = `
   <div class="absolute inset-0 bg-black opacity-70 dark:opacity-50 rounded-2xl"></div>
             <div class="absolute inset-0 container mx-auto flex flex-col justify-evenly items-center rounded-2xl">

@@ -12,11 +12,11 @@ export function header() {
           class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 home">
           Home</p>
       <p
-          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 foods">
-          Foods</p>
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 food">
+          Food</p>
       <p
-          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 desserts">
-          Desserts</p>
+          class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 dessert">
+          Dessert</p>
       <p
           class="mr-5 transform transition-all duration-150 hover:pb-2 border-black dark:hover:text-white dark:border-white hover:text-black hover:cursor-pointer hover:border-b-2 drinks">
           Drinks</p>
@@ -84,11 +84,11 @@ export function header() {
                   class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 home">
                   Home</p>
               <p
-                  class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 foods">
-                  Foods</p>
+                  class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 food">
+                  Food</p>
               <p
-                  class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 desserts">
-                  Desserts</p>
+                  class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 dessert">
+                  Dessert</p>
               <p
                   class=" transform transition-all duration-150 text-lg hover:pb-2 hover:text-white hover:cursor-pointer hover:border-b-2 drinks">
                   Drinks</p>

@@ -52,6 +52,8 @@ const bistroPage = (function () {
     document.addEventListener("mouseover", _showTooltip);
     document.addEventListener("mouseout", _hideTooltip);
 
+    document.addEventListener("click", _handlePageChange);
+
     themeToggler.addEventListener(
       "click",
       _handleDarkModeToggler.bind(themeToggler)
@@ -141,17 +143,27 @@ const bistroPage = (function () {
     this.setAttribute("aria-label", isDark ? "dark" : "light");
   }
 
-  document.addEventListener("click", (e) => {
+  function _handlePageChange(e) {
     let classList = e.target.classList;
     if (
       classList.contains("home") ||
-      classList.contains("foods") ||
+      classList.contains("food") ||
+      classList.contains("dessert") ||
       classList.contains("drinks") ||
       classList.contains("contact")
     ) {
-      //? here we will do the transition between pages
+      let pages = ["home", "food", "dessert", "drinks", "contact"];
+      let pagesSelectors = pages.map((page) => `#${page}`).join(", ");
+      let pagesElements = content.querySelectorAll(pagesSelectors);
+      pagesElements.forEach((page) => {
+        page.classList.add("hidden");
+      });
+      let pageToShow = content.querySelector(
+        `#${Array.from(e.target.classList).pop()}`
+      );
+      pageToShow.classList.remove("hidden");
     }
-  });
+  }
 
   //> Call Event Listeners
   _bindEvents();

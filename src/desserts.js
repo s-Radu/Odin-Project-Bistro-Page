@@ -3,13 +3,13 @@ import dessertBackground from "./assets/images/dessert.jpg";
 export function dessertPage() {
   let dessertPage = document.createElement("div");
   dessertPage.className =
-    "relative bg-cover bg-no-repeat bg-center rounded-2xl m-4 container mx-auto grid grid-cols-1 place-content-center min-h-[92rem] text-white";
-  dessertPage.id = "dessertPage";
+    "relative bg-cover bg-no-repeat bg-center rounded-2xl m-4 container mx-auto grid grid-cols-1 place-content-center min-h-[92rem] text-white hidden";
+  dessertPage.id = "dessert";
   dessertPage.style.backgroundImage = `url(${dessertBackground})`;
   dessertPage.innerHTML = `
   <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
 
-  <h1 class="relative font-josefin text-5xl text-center my-4 ">Desserts</h1>
+  <h1 class="relative font-josefin text-6xl text-center my-4 ">Desserts</h1>
 
   <div
       class="relative flex flex-col mx-4 items-center m-2  col-span-3 md:mx-10">

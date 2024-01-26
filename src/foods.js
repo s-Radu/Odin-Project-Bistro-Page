@@ -4,12 +4,12 @@ export function foodPage() {
   let foodMenu = document.createElement("div");
   foodMenu.style.backgroundImage = `url(${breakfastBackground})`;
   foodMenu.className =
-    "relative bg-cover bg-no-repeat bg-center rounded-2xl container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 min-h-[92rem] text-white";
-  foodMenu.id = "foodPage";
+    "relative bg-cover bg-no-repeat bg-center rounded-2xl container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 min-h-[92rem] text-white hidden";
+  foodMenu.id = "food";
   foodMenu.innerHTML = `
   <div class="absolute inset-0 bg-black opacity-60 dark:opacity-70 rounded-2xl"></div>
 
-            <h1 class="relative font-josefin text-5xl text-center my-6 md:col-span-2">Breakfast Menu</h1>
+            <h1 class="relative font-josefin text-6xl text-center my-6 md:col-span-2">Breakfast Menu</h1>
 
 
             <div class="relative flex flex-col mx-4 items-center m-2 ">
