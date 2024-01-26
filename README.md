@@ -50,8 +50,8 @@ Now you can open your browser and visit localhost:3000 to view the project.
 
 ### Built With
 
-- Vanilla JavaScript - The web framework used
-- Tailwind CSS - For styles
+- Vanilla JavaScript
+- Tailwind CSS
 - Webpack - For bundling and optimization
 
 ---

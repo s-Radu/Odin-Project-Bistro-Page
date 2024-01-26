@@ -116,13 +116,13 @@ const bistroPage = (function () {
   //   const subject = form.querySelector("#subject");
   //   const message = form.querySelector("#message");
 
-  //   // let formInfo = {
-  //   //   email: email.value,
-  //   //   subject: subject.value,
-  //   //   message: message.value,
-  //   // };
+  // let formInfo = {
+  //   email: email.value,
+  //   subject: subject.value,
+  //   message: message.value,
+  // };
 
-  //   // console.table(formInfo);
+  // console.table(formInfo);
   //   console.log(form);
   // }
 
