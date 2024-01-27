@@ -106,25 +106,6 @@ const bistroPage = (function () {
     hamburgherItems.classList.add("hidden");
   }
 
-  //> Return the form's info
-  //> The function does not work as intended, will need fixing
-
-  function _formSubmission(e) {
-    const form = content.querySelector("#contactPage form");
-    const email = form.querySelector("#email");
-    const subject = form.querySelector("#subject");
-    const message = form.querySelector("#message");
-
-    let formInfo = {
-      email: email.value,
-      subject: subject.value,
-      message: message.value,
-    };
-
-    console.table(formInfo);
-    console.log(form);
-  }
-
   function _handleDarkModeToggler() {
     //> select the HTML element which holds the class of dark, since we use tailwindcss for dark mode
     let isDark = document.documentElement.classList.toggle("dark");

@@ -43,12 +43,12 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new CopyWebpackPlugin({
-      patterns: [
-        { from: "src/assets/images", to: "images" },
-        { from: "src/assets/fonts", to: "fonts" },
-      ],
-    }),
-  ],
+  // plugins: [
+  //   new CopyWebpackPlugin({
+  //     patterns: [
+  //       { from: "src/assets/images", to: "images" },
+  //       { from: "src/assets/fonts", to: "fonts" },
+  //     ],
+  //   }),
+  // ],
 };
