@@ -65,8 +65,8 @@ const bistroPage = (function () {
     submitButton.addEventListener("click", _formSubmission);
 
     //! Add event listener for touch screens
-    // document.addEventListener("touchstart", _handleFocusIn);
-    // document.addEventListener("touchend", _handleFocusOut); //> these are not working as expected, will need fixing
+    document.addEventListener("touchstart", _handleFocusIn);
+    document.addEventListener("touchend", _handleFocusOut); //> these are not working as expected, will need fixing
   }
 
   function _showTooltip(e) {
