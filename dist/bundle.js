@@ -4292,6 +4292,7 @@ const bistroPage = (function () {
   const content = document.getElementById("content");
 
   function _render() {
+    //> Call and add all elements to the page
     let headerElement = (0,_header__WEBPACK_IMPORTED_MODULE_1__.header)();
     let homePageElement = (0,_home__WEBPACK_IMPORTED_MODULE_2__.homePage)();
     let foodElement = (0,_foods__WEBPACK_IMPORTED_MODULE_4__.foodPage)();
@@ -4318,6 +4319,7 @@ const bistroPage = (function () {
   //> Call render
   _render();
 
+  //> Cach the rest of the DOM elements needed after the render function is called
   let hamburgherItems = content.querySelector("#hamburgherItems");
   let themeToggler = content.querySelector("#theme-toggle");
   let submitButton = content.querySelector("#submit");
@@ -4337,8 +4339,6 @@ const bistroPage = (function () {
       "click",
       _handleDarkModeToggler.bind(themeToggler)
     );
-
-    submitButton.addEventListener("click", _formSubmission);
   }
 
   function _showTooltip(e) {

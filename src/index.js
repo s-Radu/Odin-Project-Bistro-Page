@@ -16,6 +16,7 @@ const bistroPage = (function () {
   const content = document.getElementById("content");
 
   function _render() {
+    //> Call and add all elements to the page
     let headerElement = header();
     let homePageElement = homePage();
     let foodElement = foodPage();
@@ -42,6 +43,7 @@ const bistroPage = (function () {
   //> Call render
   _render();
 
+  //> Cach the rest of the DOM elements needed after the render function is called
   let hamburgherItems = content.querySelector("#hamburgherItems");
   let themeToggler = content.querySelector("#theme-toggle");
   let submitButton = content.querySelector("#submit");
@@ -61,8 +63,6 @@ const bistroPage = (function () {
       "click",
       _handleDarkModeToggler.bind(themeToggler)
     );
-
-    submitButton.addEventListener("click", _formSubmission);
   }
 
   function _showTooltip(e) {
