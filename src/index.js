@@ -6,6 +6,7 @@ import { foodPage } from "./foods";
 import { drinksPage } from "./drinks";
 import { dessertPage } from "./desserts";
 import { contactPage } from "./contanct";
+import { scrollToTop } from "./button";
 
 import { initMap } from "./map";
 
@@ -21,6 +22,7 @@ const bistroPage = (function () {
     let dessertElement = dessertPage();
     let drinksElement = drinksPage();
     let contactElement = contactPage();
+    let buttonElement = scrollToTop();
 
     let footerElement = footer();
 
@@ -30,6 +32,7 @@ const bistroPage = (function () {
     content.appendChild(dessertElement);
     content.appendChild(drinksElement);
     content.appendChild(contactElement);
+    content.appendChild(buttonElement);
 
     //> last element added to the page
     content.appendChild(footerElement);
@@ -59,7 +62,7 @@ const bistroPage = (function () {
       _handleDarkModeToggler.bind(themeToggler)
     );
 
-    // submitButton.addEventListener("click", _formSubmission);
+    submitButton.addEventListener("click", _formSubmission);
 
     //! Add event listener for touch screens
     // document.addEventListener("touchstart", _handleFocusIn);
@@ -110,21 +113,21 @@ const bistroPage = (function () {
   //> Return the form's info
   //> The function does not work as intended, will need fixing
 
-  // function _formSubmission(e) {
-  //   const form = content.querySelector("#contactPage form");
-  //   const email = form.querySelector("#email");
-  //   const subject = form.querySelector("#subject");
-  //   const message = form.querySelector("#message");
+  function _formSubmission(e) {
+    const form = content.querySelector("#contactPage form");
+    const email = form.querySelector("#email");
+    const subject = form.querySelector("#subject");
+    const message = form.querySelector("#message");
 
-  // let formInfo = {
-  //   email: email.value,
-  //   subject: subject.value,
-  //   message: message.value,
-  // };
+    let formInfo = {
+      email: email.value,
+      subject: subject.value,
+      message: message.value,
+    };
 
-  // console.table(formInfo);
-  //   console.log(form);
-  // }
+    console.table(formInfo);
+    console.log(form);
+  }
 
   function _handleDarkModeToggler() {
     //> select the HTML element which holds the class of dark, since we use tailwindcss for dark mode
